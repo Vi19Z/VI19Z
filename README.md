@@ -106,8 +106,6 @@ While many AI applications are limited to simple, linear chains of prompts and A
 6. 🔧 **Self-Healing**: VI19Z will automatically retry failed steps, resend messages, and generally keep your tasks running smoothly.
 7. 📚 **RAG**: Use VI19Z's document store to build a system for retrieving and using your own data.
 
-![features](https://github.com/user-attachments/assets/4355cbae-fcbd-4510-ac0d-f8f77b73af70)
-
 > [!TIP]
 > VI19Z is ideal for applications that require AI use cases beyond simple prompt-response models.
 
@@ -639,9 +637,6 @@ VI19Z is made up of the following components:
 
 ### Mental Model
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/38420b5d-9342-4c8d-bae9-b47c28ae45af" height="360" />
-</div>
 
 Think of VI19Z as a platform that combines both client-side and server-side components to help you build advanced AI agents. Here's how to visualize it:
 
