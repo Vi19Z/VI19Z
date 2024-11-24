@@ -3,9 +3,11 @@
   ·
   <a href="https://x.com/Vision16z" rel="dofollow">𝕏</a>
 
-   <a href="#-table-of-contents">
-        [(https://img.shields.io/badge/Licance-Approved-blue)
+
+           <a href="#top">
+        <img src="(https://img.shields.io/badge/Licance-Approved-blue)" alt="Back to Top">
     </a>
+  
   ·
 </p>
 
