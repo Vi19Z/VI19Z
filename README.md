@@ -6,13 +6,7 @@
 </p>
 
 <p align="center">
-    <a href="https://www.npmjs.com/package/@VI19Z/sdk"><img src="https://img.shields.io/npm/v/%40VI19Z%2Fsdk?style=social&amp;logo=npm&amp;link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40VI19Z%2Fsdk" alt="NPM Version"></a>
-    <span>&nbsp;</span>
-    <a href="https://pypi.org/project/VI19Z"><img src="https://img.shields.io/pypi/v/VI19Z?style=social&amp;logo=python&amp;label=PyPI&amp;link=https%3A%2F%2Fpypi.org%2Fproject%2FVI19Z" alt="PyPI - Version"></a>
-    <span>&nbsp;</span>
-    <a href="https://hub.docker.com/u/VI19Zai"><img src="https://img.shields.io/docker/v/VI19Zai/agents-api?sort=semver&amp;style=social&amp;logo=docker&amp;link=https%3A%2F%2Fhub.docker.com%2Fu%2FVI19Zai" alt="Docker Image Version"></a>
-    <span>&nbsp;</span>
-    <a href="https://choosealicense.com/licenses/apache/"><img src="https://img.shields.io/github/license/VI19Z-ai/VI19Z" alt="GitHub License"></a>
+   
 </p>
 
 ---
