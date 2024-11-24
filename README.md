@@ -1,14 +1,8 @@
-<sup>[English](README.md) | [中文翻译](README-CN.md) | [日本語翻訳](README-JA.md) | [French](README-FR.md) </sup>
-
 <p align="center">
   <br />
-  <a href="https://docs.VI19Z.ai" rel="dofollow">Explore Docs (wip)</a>
-  ·
-  <a href="https://discord.com/invite/JTSBGRZrzj" rel="dofollow">Discord</a>
   ·
   <a href="https://x.com/VI19Z_ai" rel="dofollow">𝕏</a>
   ·
-  <a href="https://www.linkedin.com/company/VI19Z-ai" rel="dofollow">LinkedIn</a>
 </p>
 
 <p align="center">
