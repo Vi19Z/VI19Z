@@ -1,7 +1,7 @@
 <p align="center">
   <br />
   ·
-  <a href="https://x.com/VI19Z_ai" rel="dofollow">𝕏</a>
+  <a href="https://x.com/Vision16z" rel="dofollow">𝕏</a>
   ·
 </p>
 
