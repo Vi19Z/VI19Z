@@ -4,10 +4,6 @@
   <a href="https://x.com/Vision16z" rel="dofollow">𝕏</a>
 
 <p align="center">
-  <img src="(https://imgur.com/a/gRucP38)" width="200">
-</p>
-
-<p align="center">
    
 </p>
 
