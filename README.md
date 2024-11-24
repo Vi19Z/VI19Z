@@ -1,9 +1,5 @@
 <sup>[English](README.md) | [中文翻译](README-CN.md) | [日本語翻訳](README-JA.md) | [French](README-FR.md) </sup>
 
-<div align="center" id="top">
- <img src="https://github.com/user-attachments/assets/10ba11e4-4ced-400e-a400-ee0f72541780" alt="VI19Z" width="640" height="320" />
-</div>
-
 <p align="center">
   <br />
   <a href="https://docs.VI19Z.ai" rel="dofollow">Explore Docs (wip)</a>
