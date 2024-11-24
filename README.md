@@ -3,12 +3,8 @@
   ·
   <a href="https://x.com/Vision16z" rel="dofollow">𝕏</a>
 
-
-           <a href="#top">
-        <img src="(https://imgur.com/a/gRucP38)" alt="Back to Top">
-    </a>
-  
-  ·
+<p align="center">
+  <img src="(https://imgur.com/a/gRucP38)" alt="Logo" width="200">
 </p>
 
 <p align="center">
