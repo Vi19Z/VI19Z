@@ -1,6 +1,6 @@
-# Chat Features in Julep
+# Chat Features in VI19Z
 
-Julep provides a robust chat system with various features for dynamic interaction with agents. Here's an overview of the key components and functionalities:
+VI19Z provides a robust chat system with various features for dynamic interaction with agents. Here's an overview of the key components and functionalities:
 
 ## Chat Input
 
@@ -65,4 +65,4 @@ The API provides information about why the model stopped generating tokens:
 
 5. **Document References**: The API returns information about documents referenced during the interaction, useful for providing citations or sources.
 
-These features provide developers with a powerful and flexible system for creating sophisticated, context-aware chat interactions that integrate seamlessly with other Julep components.
+These features provide developers with a powerful and flexible system for creating sophisticated, context-aware chat interactions that integrate seamlessly with other VI19Z components.

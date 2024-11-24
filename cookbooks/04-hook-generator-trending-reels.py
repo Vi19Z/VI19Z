@@ -12,20 +12,20 @@ AGENT_UUID =  uuid.uuid4()
 TASK_UUID = uuid.uuid4()
 RAPID_API_KEY = os.getenv('RAPID_API_KEY')
 RAPID_API_HOST = os.getenv('RAPID_API_HOST')
-JULEP_API_KEY = os.getenv('JULEP_API_KEY') or os.getenv('JULEP_API_KEY_LOCAL')
+VI19Z_API_KEY = os.getenv('VI19Z_API_KEY') or os.getenv('VI19Z_API_KEY_LOCAL')
 
 print(f'AGENT_UUID: {AGENT_UUID}')
 print(f'TASK_UUID: {TASK_UUID}')
-print(f'JULEP_API_KEY: {JULEP_API_KEY}')
+print(f'VI19Z_API_KEY: {VI19Z_API_KEY}')
 print(f'RAPID_API_KEY: {RAPID_API_KEY}')
 print(f'RAPID_API_HOST: {RAPID_API_HOST}')
 
 
-# ### Creating Julep Client with the API Key
+# ### Creating VI19Z Client with the API Key
 
-from julep import Client
+from VI19Z import Client
 # # Create a client
-client = Client(api_key=JULEP_API_KEY,environment="dev")
+client = Client(api_key=VI19Z_API_KEY,environment="dev")
 
 #  Creating an agent for handling persistent sessions
 agent = client.agents.create_or_update(

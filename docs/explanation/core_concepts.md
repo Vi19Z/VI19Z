@@ -1,10 +1,10 @@
-# Core Concepts in Julep
+# Core Concepts in VI19Z
 
-Julep is a powerful backend system for managing agent execution. It provides several key components that work together to create flexible and intelligent applications. Here are the core concepts:
+VI19Z is a powerful backend system for managing agent execution. It provides several key components that work together to create flexible and intelligent applications. Here are the core concepts:
 
 ## Agent
 
-An Agent in Julep is the main orchestrator of your application. Agents are backed by foundation models like GPT4 or Claude and use interaction history to determine their next actions. Key features include:
+An Agent in VI19Z is the main orchestrator of your application. Agents are backed by foundation models like GPT4 or Claude and use interaction history to determine their next actions. Key features include:
 
 - Long-lived interactions in sessions
 - Integration with system or user-defined tools
@@ -13,11 +13,11 @@ An Agent in Julep is the main orchestrator of your application. Agents are backe
 
 ## User
 
-Users in Julep can be associated with sessions. They are used to scope memories formed by agents and can hold metadata for reference in sessions or task executions.
+Users in VI19Z can be associated with sessions. They are used to scope memories formed by agents and can hold metadata for reference in sessions or task executions.
 
 ## Session
 
-Sessions are the main workhorse for Julep apps:
+Sessions are the main workhorse for VI19Z apps:
 - They facilitate interactions with agents
 - Each session maintains its own context
 - Can have one or more agents and zero or more users
@@ -25,7 +25,7 @@ Sessions are the main workhorse for Julep apps:
 
 ## Tool
 
-Tools in Julep are programmatic interfaces that foundation models can "call" with inputs to achieve a goal. They can be:
+Tools in VI19Z are programmatic interfaces that foundation models can "call" with inputs to achieve a goal. They can be:
 1. User-defined functions
 2. System tools (upcoming)
 3. Built-in integrations (upcoming)
@@ -37,10 +37,10 @@ Docs are collections of text snippets (with planned image support) indexed into 
 
 ## Task
 
-Tasks in Julep are Github Actions-style workflows that define long-running, multi-step actions. They allow for complex operations by defining steps and have access to all Julep integrations.
+Tasks in VI19Z are Github Actions-style workflows that define long-running, multi-step actions. They allow for complex operations by defining steps and have access to all VI19Z integrations.
 
 ## Execution
 
 An Execution is an instance of a Task that has been started with some input. It can be in various states (e.g., queued, running, awaiting input, succeeded, failed) and follows a specific state transition model.
 
-These core concepts form the foundation of Julep's functionality, allowing for the creation of sophisticated, context-aware applications with powerful agent capabilities.
+These core concepts form the foundation of VI19Z's functionality, allowing for the creation of sophisticated, context-aware applications with powerful agent capabilities.

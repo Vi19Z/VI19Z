@@ -1,6 +1,6 @@
 # Creating Your First Agent
 
-This tutorial will guide you through the process of creating your first agent using the Julep API.
+This tutorial will guide you through the process of creating your first agent using the VI19Z API.
 
 ## Step 1: Prepare the Agent Data
 
@@ -20,8 +20,8 @@ Decide on the basic properties of your agent:
 Use the following curl command to create your agent:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/agents" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/agents" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "name": "MyFirstAgent",
@@ -36,8 +36,8 @@ curl -X POST "https://dev.julep.ai/api/agents" \
 Check if your agent was created successfully:
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/agents" \
-     -H "Authorization: Bearer $JULEP_API_KEY"
+curl -X GET "https://dev.VI19Z.ai/api/agents" \
+     -H "Authorization: Bearer $VI19Z_API_KEY"
 ```
 
 You should see your newly created agent in the list.

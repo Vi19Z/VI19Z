@@ -49,6 +49,6 @@
 ***
 
 * [🫂 Discord Community](https://discord.com/invite/JTSBGRZrzj)
-* [⭐ Github](https://github.com/julep-ai/julep)
-* [🐍 PyPI package](https://pypi.org/project/julep/)
-* [📦 npm package](https://www.npmjs.com/package/@julep/sdk)
+* [⭐ Github](https://github.com/VI19Z-ai/VI19Z)
+* [🐍 PyPI package](https://pypi.org/project/VI19Z/)
+* [📦 npm package](https://www.npmjs.com/package/@VI19Z/sdk)

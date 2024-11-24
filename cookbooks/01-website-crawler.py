@@ -1,16 +1,16 @@
 import os
 import uuid
 import yaml
-from julep import Client
+from VI19Z import Client
 
 # Global UUID is generated for agent and task
 AGENT_UUID = uuid.uuid4()
 TASK_UUID = uuid.uuid4()
 
-# Creating Julep Client with the API Key
-api_key = os.getenv("JULEP_API_KEY")
+# Creating VI19Z Client with the API Key
+api_key = os.getenv("VI19Z_API_KEY")
 if not api_key:
-    raise ValueError("JULEP_API_KEY not found in environment variables")
+    raise ValueError("VI19Z_API_KEY not found in environment variables")
 
 client = Client(api_key=api_key, environment="dev")
 

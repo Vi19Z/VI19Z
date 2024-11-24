@@ -5,7 +5,7 @@ input:
   ./README.md: ""
   ./README (1).md: ""
   ./introduction/core-concepts.md: ""
-  ./introduction/julep-in-a-nutshell.md: ""
+  ./introduction/VI19Z-in-a-nutshell.md: ""
   ./getting-started/agents-quickstart.md: ""
   ./getting-started/python-setup.md: ""
   ./agents/jessica.md: ""

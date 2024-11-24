@@ -4,7 +4,7 @@ We welcome contributions to this project! There are several ways you can contrib
 
 ### Reporting Issues
 
-If you find a bug or have a feature request, please submit an issue on the [GitHub Issues](https://github.com/julep-ai/julep/issues) page. When reporting a bug, please include:
+If you find a bug or have a feature request, please submit an issue on the [GitHub Issues](https://github.com/VI19Z-ai/VI19Z/issues) page. When reporting a bug, please include:
 - Steps to reproduce the issue
 - Expected behavior
 - Actual behavior
@@ -26,7 +26,7 @@ Please ensure your code follows the existing style and passes all tests.
 
 ### Key Components
 
-1. **agents-api**: The core API service for Julep.
+1. **agents-api**: The core API service for VI19Z.
 2. **typespec**: API specifications and contracts.
 3. **integrations-service**: Handles external integrations.
 4. **embedding-service**: Manages text embeddings.
@@ -58,7 +58,7 @@ The `agents-api` serves as the central component, interacting with most other se
 
 ## Understanding the Codebase
 
-To get a comprehensive understanding of Julep, we recommend exploring the codebase in the following order:
+To get a comprehensive understanding of VI19Z, we recommend exploring the codebase in the following order:
 
 1. **Project Overview**
    - Read `README.md` in the root directory

@@ -1930,14 +1930,14 @@ files = [
 referencing = ">=0.31.0"
 
 [[package]]
-name = "julep"
+name = "VI19Z"
 version = "1.40.0"
-description = "The official Python library for the julep API"
+description = "The official Python library for the VI19Z API"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "julep-1.40.0-py3-none-any.whl", hash = "sha256:64e2adf3629e3813792863b8b0f138563da2de7b902fd017238466759b29039b"},
-    {file = "julep-1.40.0.tar.gz", hash = "sha256:3e6eb2a1d0089ce3c390af743b9551882d52e0bcd1b63a5965a85fac33b0341f"},
+    {file = "VI19Z-1.40.0-py3-none-any.whl", hash = "sha256:64e2adf3629e3813792863b8b0f138563da2de7b902fd017238466759b29039b"},
+    {file = "VI19Z-1.40.0.tar.gz", hash = "sha256:3e6eb2a1d0089ce3c390af743b9551882d52e0bcd1b63a5965a85fac33b0341f"},
 ]
 
 [package.dependencies]
@@ -2332,7 +2332,7 @@ proxy = ["PyJWT (>=2.8.0,<3.0.0)", "apscheduler (>=3.10.4,<4.0.0)", "backoff", "
 
 [package.source]
 type = "git"
-url = "https://github.com/julep-ai/litellm.git"
+url = "https://github.com/VI19Z-ai/litellm.git"
 reference = "fix_anthropic_tool_image_content"
 resolved_reference = "45a0d77a1446e0eb3feeebbf717ef43bfd0e7f7d"
 

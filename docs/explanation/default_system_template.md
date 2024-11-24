@@ -1,6 +1,6 @@
-# Default System Template in Julep
+# Default System Template in VI19Z
 
-Julep uses a default system template for sessions when a custom one is not provided. This template is written in Jinja2 and incorporates various elements from the agent, user, and session context. Here's a breakdown of the template:
+VI19Z uses a default system template for sessions when a custom one is not provided. This template is written in Jinja2 and incorporates various elements from the agent, user, and session context. Here's a breakdown of the template:
 
 ```jinja
 {%- if agent.name -%}
@@ -68,4 +68,4 @@ This template dynamically includes:
 4. Available tools
 5. Relevant documents
 
-By using this template, Julep ensures that each session starts with a comprehensive context, allowing the agent to understand its role, the user it's interacting with, and the resources at its disposal.
+By using this template, VI19Z ensures that each session starts with a comprehensive context, allowing the agent to understand its role, the user it's interacting with, and the resources at its disposal.

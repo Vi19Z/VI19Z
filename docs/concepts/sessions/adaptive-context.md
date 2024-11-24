@@ -2,7 +2,7 @@
 
 ### What is Adaptive Context?
 
-Adaptive Context is a feature in Julep that intelligently manages the context size for long-running sessions. It allows users to continue adding messages to a session indefinitely without worrying about hitting context window limits or incurring excessive costs.
+Adaptive Context is a feature in VI19Z that intelligently manages the context size for long-running sessions. It allows users to continue adding messages to a session indefinitely without worrying about hitting context window limits or incurring excessive costs.
 
 This feature uses a combination of techniques including compression, summarization, trimming, and entity extraction to compactify the input context when it approaches a predefined token budget. Adaptive Context works for both text-based and multimodal models, applying similar techniques to images when they are part of the context.
 
@@ -16,22 +16,22 @@ Adaptive Context is controlled by two main parameters within the Session object:
 
 
 
-<table><thead><tr><th width="212">Attribute</th><th width="178">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>token_budget</code></td><td><code>integer?</code></td><td>Defines the maximum number of tokens allowed in the context. When null, it defaults to the size of the context window for the model used in the session.</td></tr><tr><td><code>context_overflow</code></td><td><code>"truncate" | "adaptive" | null</code></td><td>Determines how Julep handles context when it exceeds the token budget.</td></tr></tbody></table>
+<table><thead><tr><th width="212">Attribute</th><th width="178">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>token_budget</code></td><td><code>integer?</code></td><td>Defines the maximum number of tokens allowed in the context. When null, it defaults to the size of the context window for the model used in the session.</td></tr><tr><td><code>context_overflow</code></td><td><code>"truncate" | "adaptive" | null</code></td><td>Determines how VI19Z handles context when it exceeds the token budget.</td></tr></tbody></table>
 
-These attributes allow you to fine-tune how Julep manages context in your sessions, giving you control over token usage and context handling behavior.
+These attributes allow you to fine-tune how VI19Z manages context in your sessions, giving you control over token usage and context handling behavior.
 
 ### How Adaptive Context Works
 
 Adaptive Context operates based on the `context_overflow` setting you choose for your session. Here's how each mode functions:
 
 1. _Disabled_ (Default):
-   * Julep doesn't apply any special handling.
+   * VI19Z doesn't apply any special handling.
    *   The model API throws an error if the context exceeds the model's context window limit.\
 
 
        <figure><img src="../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure>
 2. _Truncate_:
-   * When the context size approaches the `token_budget`, Julep automatically drops messages from the beginning of the conversation.
+   * When the context size approaches the `token_budget`, VI19Z automatically drops messages from the beginning of the conversation.
    * The system prompt is always preserved.
    *   This ensures the context size stays within the specified `token_budget`.\
 
@@ -39,8 +39,8 @@ Adaptive Context operates based on the `context_overflow` setting you choose for
        <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 3.  _Adaptive_:
 
-    * Julep actively monitors the context size.
-    * When the size exceeds half of the `token_budget`, Julep initiates a background process:
+    * VI19Z actively monitors the context size.
+    * When the size exceeds half of the `token_budget`, VI19Z initiates a background process:
       1. Extracts key entities from the context.
       2. Summarizes and merges redundant messages.
       3. Trims remaining messages to remove padding and repetitive content.
@@ -62,9 +62,9 @@ Enabling Adaptive Context is straightforward and can be done when creating a new
 {% tabs %}
 {% tab title="Python" %}
 ```python
-from julep import Client
+from VI19Z import Client
 
-# Initialize the Julep client
+# Initialize the VI19Z client
 client = Client(api_key="your_api_key", environment=“dev”)
 
 # Create a new session with Adaptive Context enabled
@@ -81,9 +81,9 @@ session = client.sessions.create(
 
 {% tab title="Javascript" %}
 ```typescript
-import { Client } from "@julep/sdk";
+import { Client } from "@VI19Z/sdk";
 
-// Initialize the Julep client
+// Initialize the VI19Z client
 const client = new Client({ apiKey: "your-api-key", environment:“dev” });
 
 // Create a new session with Adaptive Context enabled
@@ -106,7 +106,7 @@ In this example:
 
 You can adjust these parameters based on your specific needs. For instance, you might choose a larger `token_budget` for more complex conversations, or use "truncate" instead of "adaptive" if you prefer simpler context management.
 
-Remember, if you don't specify these parameters, Julep will use the default settings (null for both), which means no special context management will be applied.
+Remember, if you don't specify these parameters, VI19Z will use the default settings (null for both), which means no special context management will be applied.
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt="" width="319"><figcaption></figcaption></figure>
 

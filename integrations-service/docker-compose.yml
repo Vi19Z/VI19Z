@@ -1,4 +1,4 @@
-name: julep-integrations
+name: VI19Z-integrations
 
 # Shared environment variables
 x--shared-environment: &shared-environment
@@ -16,7 +16,7 @@ x--shared-environment: &shared-environment
 
 services:
   integrations:
-    image: julepai/integrations:${TAG:-dev}
+    image: VI19Zai/integrations:${TAG:-dev}
     build: .
     
     environment:

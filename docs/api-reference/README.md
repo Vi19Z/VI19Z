@@ -10,7 +10,7 @@ The Agents API is still in early alpha and while the API is generally stable, it
 The main objects that the agents API allows you to create / access are:
 
 * [Agents](../../sdks/python-sdk-docs/agent.md): Program using language models for complex task execution.
-* [Users](../../sdks/python-sdk-docs/user.md): Users are entities within Julep to track memories by.
+* [Users](../../sdks/python-sdk-docs/user.md): Users are entities within VI19Z to track memories by.
 * [Sessions](../../sdks/python-sdk-docs/session.md): Real-time user-AI agent interactions similar to chat completions etc but with access to agent memories and documents.
 * [Memories](agents-api-3.md): Memories store events, beliefs, facts for personalized interactions.
 * [Docs](agents-api-4.md): Documents managed for agents or users for retrieval augmented generation or RAG.

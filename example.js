@@ -1,11 +1,11 @@
 // Step 0: Setup
 const dotenv = require('dotenv');
-const { Julep } = require('@julep/sdk');
+const { VI19Z } = require('@VI19Z/sdk');
 const yaml = require('yaml');
 
 dotenv.config();
 
-const client = new Julep({ apiKey: process.env.JULEP_API_KEY, environment: process.env.JULEP_ENVIRONMENT || "production" });
+const client = new VI19Z({ apiKey: process.env.VI19Z_API_KEY, environment: process.env.VI19Z_ENVIRONMENT || "production" });
 
 // Step 1: Create an Agent
 async function createAgent() {

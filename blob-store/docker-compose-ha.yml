@@ -1,4 +1,4 @@
-name: julep-blob-store
+name: VI19Z-blob-store
 
 x-seaweedfs-base:
   &seaweedfs-base

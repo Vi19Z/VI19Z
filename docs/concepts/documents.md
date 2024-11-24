@@ -11,7 +11,7 @@ A typical RAG application has the following components:
 3. Retrieval
 4. Generation
 
-Julep offers a pre-built RAG pipeline out of the box. You can specify data sources scoped to an agent or a user.
+VI19Z offers a pre-built RAG pipeline out of the box. You can specify data sources scoped to an agent or a user.
 
 ## Adding Documents
 

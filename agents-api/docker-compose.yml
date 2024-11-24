@@ -1,4 +1,4 @@
-name: julep-agents-api
+name: VI19Z-agents-api
 
 # Shared environment variables
 x--shared-environment: &shared-environment
@@ -18,7 +18,7 @@ x--shared-environment: &shared-environment
   SUMMARIZATION_MODEL_NAME: ${SUMMARIZATION_MODEL_NAME:-gpt-4-turbo}
   TEMPORAL_ENDPOINT: ${TEMPORAL_ENDPOINT:-temporal:7233}
   TEMPORAL_NAMESPACE: ${TEMPORAL_NAMESPACE:-default}
-  TEMPORAL_TASK_QUEUE: ${TEMPORAL_TASK_QUEUE:-julep-task-queue}
+  TEMPORAL_TASK_QUEUE: ${TEMPORAL_TASK_QUEUE:-VI19Z-task-queue}
   TEMPORAL_WORKER_URL: ${TEMPORAL_WORKER_URL:-temporal:7233}
   TRUNCATE_EMBED_TEXT: ${TRUNCATE_EMBED_TEXT:-True}
   WORKER_URL: ${WORKER_URL:-temporal:7233}
@@ -33,7 +33,7 @@ x--shared-environment: &shared-environment
   MAX_FREE_EXECUTIONS: ${MAX_FREE_EXECUTIONS:-50}
 
 x--base-agents-api: &base-agents-api
-  image: julepai/agents-api:${TAG:-dev}
+  image: VI19Zai/agents-api:${TAG:-dev}
   depends_on:
     worker:
       condition: service_started
@@ -83,7 +83,7 @@ services:
       AGENTS_API_PREFIX: "/api"
 
   worker:
-    image: julepai/worker:${TAG:-dev}
+    image: VI19Zai/worker:${TAG:-dev}
     environment:
       <<: *shared-environment
     build:
@@ -103,7 +103,7 @@ services:
           path: Dockerfile.worker
 
   cozo-migrate:
-    image: julepai/cozo-migrate:${TAG:-dev}
+    image: VI19Zai/cozo-migrate:${TAG:-dev}
     container_name: cozo-migrate
     build:
       context: .

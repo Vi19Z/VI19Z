@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: Julep OpenAI API
+  title: VI19Z OpenAI API
   description: The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.
   version: "2.0.0"
   termsOfService: https://openai.com/policies/terms-of-use
@@ -11,7 +11,7 @@ info:
     name: MIT
     url: https://github.com/openai/openai-openapi/blob/master/LICENSE
 servers:
-  - url: https://api-alpha.julep.ai/v1
+  - url: https://api-alpha.VI19Z.ai/v1
 tags:
   - name: Assistants
     description: Build Assistants that can call models and use tools.

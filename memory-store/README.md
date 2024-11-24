@@ -1,6 +1,6 @@
 Cozo Server
 
-The `memory-store` directory within the julep repository serves as a critical component for managing data persistence and availability. It encompasses functionalities for data backup, service deployment, and containerization, ensuring that the julep project's data management is efficient and scalable.
+The `memory-store` directory within the VI19Z repository serves as a critical component for managing data persistence and availability. It encompasses functionalities for data backup, service deployment, and containerization, ensuring that the VI19Z project's data management is efficient and scalable.
 
 ## Backup Script
 
@@ -25,4 +25,4 @@ To utilize the components of the memory-store directory, follow these general in
 - To build and run the Docker containers, use the Docker and Docker Compose commands as specified in the `docker-compose.yml` file.
 - To execute the backup script, run `python backup.py` with the appropriate arguments as detailed in the `backup.py` file.
 
-This README provides a comprehensive guide to understanding and using the memory-store components within the julep project.
+This README provides a comprehensive guide to understanding and using the memory-store components within the VI19Z project.

@@ -144,7 +144,7 @@ http:
 experimental:
   localPlugins:
     jwt:
-      moduleName: github.com/julep-ai/traefik-jwt-plugin
+      moduleName: github.com/VI19Z-ai/traefik-jwt-plugin
 
 ### TODO: Enable after testing
 # metrics:

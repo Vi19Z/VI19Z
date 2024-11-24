@@ -1,8 +1,8 @@
-name: julep-code-interpreter
+name: VI19Z-code-interpreter
 
 services:
   code-interpreter:
-    image: julepai/code-interpreter:${TAG:-dev}
+    image: VI19Zai/code-interpreter:${TAG:-dev}
 
     build:
       context: ./vendor/cohere-ai/cohere-terrarium

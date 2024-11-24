@@ -1,15 +1,15 @@
 # Managing Sessions
 
 
-This tutorial will guide you through creating and managing sessions with your Julep agents.
+This tutorial will guide you through creating and managing sessions with your VI19Z agents.
 
 ## Creating a Session
 
 To create a new session with an agent:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/sessions" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/sessions" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "agent_id": "YOUR_AGENT_ID",
@@ -23,8 +23,8 @@ curl -X POST "https://dev.julep.ai/api/sessions" \
 To send a message in a session:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID/messages" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/sessions/YOUR_SESSION_ID/messages" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "role": "user",
@@ -37,8 +37,8 @@ curl -X POST "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID/messages" \
 If you're dealing with long conversations, you may need to handle context overflow:
 
 ```bash
-curl -X PUT "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X PUT "https://dev.VI19Z.ai/api/sessions/YOUR_SESSION_ID" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "token_budget": 4000,

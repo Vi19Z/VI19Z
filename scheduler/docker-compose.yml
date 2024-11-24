@@ -1,4 +1,4 @@
-name: julep-scheduler
+name: VI19Z-scheduler
 
 x--temporal-base: &temporal-base
   image: temporalio/auto-setup:1.25
@@ -69,7 +69,7 @@ services:
       # - TEMPORAL_CORS_ORIGINS=${TEMPORAL_CORS_ORIGINS:-http://localhost:3000}
       - TEMPORAL_CODEC_ENDPOINT=http://localhost/api/temporal
       - TEMPORAL_UI_ENABLED=true
-      - TEMPORAL_FEEDBACK_URL=https://github.com/julep-ai/julep
+      - TEMPORAL_FEEDBACK_URL=https://github.com/VI19Z-ai/VI19Z
       - TEMPORAL_NOTIFY_ON_NEW_VERSION=false
       - TEMPORAL_CSRF_COOKIE_INSECURE=true
       # - TEMPORAL_HIDE_LOGS=true
@@ -91,7 +91,7 @@ services:
       - TEMPORAL_ADDRESS=${TEMPORAL_ADDRESS:-temporal:7233}
       - TEMPORAL_CODEC_ENDPOINT=http://localhost/api/temporal
       - TEMPORAL_UI_ENABLED=true
-      - TEMPORAL_FEEDBACK_URL=https://github.com/julep-ai/julep
+      - TEMPORAL_FEEDBACK_URL=https://github.com/VI19Z-ai/VI19Z
       - TEMPORAL_NOTIFY_ON_NEW_VERSION=false
       - TEMPORAL_CSRF_COOKIE_INSECURE=true
       - TEMPORAL_DISABLE_WRITE_ACTIONS=true

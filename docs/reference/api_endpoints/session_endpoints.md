@@ -1,6 +1,6 @@
 # Session Endpoints
 
-This document provides a reference for all Session API endpoints in Julep.
+This document provides a reference for all Session API endpoints in VI19Z.
 
 ## List Sessions
 

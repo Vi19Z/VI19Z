@@ -1,14 +1,14 @@
 # Integrating Tools
 
-This tutorial will show you how to integrate tools with your Julep agents.
+This tutorial will show you how to integrate tools with your VI19Z agents.
 
 ## Creating a User-Defined Function Tool
 
 Here's how to create a simple tool for sending emails:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/agents/YOUR_AGENT_ID/tools" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/agents/YOUR_AGENT_ID/tools" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "name": "send_email",
@@ -42,8 +42,8 @@ curl -X POST "https://dev.julep.ai/api/agents/YOUR_AGENT_ID/tools" \
 When creating or updating a session, you can specify which tools to use:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/sessions" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/sessions" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "agent_id": "YOUR_AGENT_ID",

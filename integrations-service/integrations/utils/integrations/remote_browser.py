@@ -49,7 +49,7 @@ class PlaywrightActions:
         """Check if the page is initialized"""
         result = bool(
             await self._execute_javascript("""
-                window.$$julep$$_initialized
+                window.$$VI19Z$$_initialized
             """)
         )
 
@@ -78,14 +78,14 @@ class PlaywrightActions:
                         window.mouseY = event.clientY;
                     };
 
-                    if (!window.$$julep$$_mouseListenerInitialized) {
+                    if (!window.$$VI19Z$$_mouseListenerInitialized) {
                         window.addEventListener('mousemove', updateMouseCoordinates);
                         window.addEventListener('mouseup', updateMouseCoordinates);
                         window.addEventListener('mousedown', updateMouseCoordinates);
                         window.addEventListener('click', updateMouseCoordinates);
                         window.addEventListener('dblclick', updateMouseCoordinates);
 
-                        window.$$julep$$_mouseListenerInitialized = true;
+                        window.$$VI19Z$$_mouseListenerInitialized = true;
                     }
                 }
             );
@@ -101,7 +101,7 @@ class PlaywrightActions:
         if not await self._is_initialized():
             await self.page.mouse.move(self.width // 2, self.height // 2)
             await self.page.evaluate("""
-            window.$$julep$$_initialized = true;
+            window.$$VI19Z$$_initialized = true;
             """)
 
     # @staticmethod

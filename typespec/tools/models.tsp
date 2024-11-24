@@ -32,7 +32,7 @@ enum ToolType {
     /** A tool that emulates a function call */
     function,
 
-    /** A tool that uses one of the Julep integrations */
+    /** A tool that uses one of the VI19Z integrations */
     integration,
 
     /** A tool that uses a system resource */

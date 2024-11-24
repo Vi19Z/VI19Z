@@ -1,7 +1,7 @@
-# Task Workflows in Julep
+# Task Workflows in VI19Z
 
 
-Tasks in Julep are powerful, Github Actions-style workflows that define long-running, multi-step actions. They allow for complex operations by defining steps and have access to all Julep integrations.
+Tasks in VI19Z are powerful, Github Actions-style workflows that define long-running, multi-step actions. They allow for complex operations by defining steps and have access to all VI19Z integrations.
 
 ## Task Structure
 
@@ -93,4 +93,4 @@ main:
   arguments: inputs[0]
 ```
 
-This task demonstrates the power and flexibility of Julep's workflow system, allowing for complex, multi-step processes that can interact with various tools and models to achieve sophisticated outcomes.
+This task demonstrates the power and flexibility of VI19Z's workflow system, allowing for complex, multi-step processes that can interact with various tools and models to achieve sophisticated outcomes.

@@ -1,14 +1,14 @@
 # Handling Executions
 
-This guide covers how to manage and monitor task executions in Julep.
+This guide covers how to manage and monitor task executions in VI19Z.
 
 ## Starting an Execution
 
 To start a new execution of a task:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/tasks/YOUR_TASK_ID/executions" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/tasks/YOUR_TASK_ID/executions" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "input": {
@@ -24,8 +24,8 @@ curl -X POST "https://dev.julep.ai/api/tasks/YOUR_TASK_ID/executions" \
 To check the status of an execution:
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/executions/YOUR_EXECUTION_ID" \
-     -H "Authorization: Bearer $JULEP_API_KEY"
+curl -X GET "https://dev.VI19Z.ai/api/executions/YOUR_EXECUTION_ID" \
+     -H "Authorization: Bearer $VI19Z_API_KEY"
 ```
 
 ## Handling Awaiting Input State
@@ -33,8 +33,8 @@ curl -X GET "https://dev.julep.ai/api/executions/YOUR_EXECUTION_ID" \
 If an execution is in the "awaiting_input" state, you can resume it with:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/executions/resume" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/executions/resume" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "task_token": "YOUR_TASK_TOKEN",
@@ -49,8 +49,8 @@ curl -X POST "https://dev.julep.ai/api/executions/resume" \
 To cancel a running execution:
 
 ```bash
-curl -X PUT "https://dev.julep.ai/api/executions/YOUR_EXECUTION_ID" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X PUT "https://dev.VI19Z.ai/api/executions/YOUR_EXECUTION_ID" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "status": "cancelled"
@@ -62,8 +62,8 @@ curl -X PUT "https://dev.julep.ai/api/executions/YOUR_EXECUTION_ID" \
 To stream events from an execution in real-time:
 
 ```bash
-curl -N -H "Authorization: Bearer $JULEP_API_KEY" \
-     "https://dev.julep.ai/api/executions/YOUR_EXECUTION_ID/transitions/stream"
+curl -N -H "Authorization: Bearer $VI19Z_API_KEY" \
+     "https://dev.VI19Z.ai/api/executions/YOUR_EXECUTION_ID/transitions/stream"
 ```
 
 ## Next Steps

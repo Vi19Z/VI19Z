@@ -25,29 +25,29 @@ using Versions;
 // MAIN
 //
 
-/** Julep is a backend for creating stateful AI apps with background tasks and long-term memory easily. */
+/** VI19Z is a backend for creating stateful AI apps with background tasks and long-term memory easily. */
 @service({
-    name: "julep-api",
-    title: "Julep API",
+    name: "VI19Z-api",
+    title: "VI19Z API",
 })
 @versioned(ApiVersions)
 @summary("A backend for creating stateful AI apps")
 @info({
-    termsOfService: "https://julep.ai/terms",
+    termsOfService: "https://VI19Z.ai/terms",
     contact: {
-        name: "Julep AI",
-        url: "https://julep.ai",
-        email: "developers@julep.ai",
+        name: "VI19Z AI",
+        url: "https://VI19Z.ai",
+        email: "developers@VI19Z.ai",
     },
     license: {
         name: "Apache 2.0",
         url: "https://www.apache.org/licenses/LICENSE-2.0.html",
     },
 })
-@externalDocs("https://docs.julep.ai", "Julep API documentation")
+@externalDocs("https://docs.VI19Z.ai", "VI19Z API documentation")
 @server(
-    "https://{serverEnv}.julep.ai/api",
-    "The julep cloud service endpoint",
+    "https://{serverEnv}.VI19Z.ai/api",
+    "The VI19Z cloud service endpoint",
     {
         @doc("The environment to use")
         serverEnv?: "api" | "api-alpha" = "api-alpha",

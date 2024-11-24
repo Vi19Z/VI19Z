@@ -1,4 +1,4 @@
-name: julep
+name: VI19Z
 
 services:
   agents-api:
@@ -22,11 +22,11 @@ services:
       SUMMARIZATION_MODEL_NAME: gpt-4o-mini
       TEMPORAL_ENDPOINT: temporal:7233
       TEMPORAL_NAMESPACE: default
-      TEMPORAL_TASK_QUEUE: julep-task-queue
+      TEMPORAL_TASK_QUEUE: VI19Z-task-queue
       TEMPORAL_WORKER_URL: temporal:7233
       TRUNCATE_EMBED_TEXT: "True"
       WORKER_URL: temporal:7233
-    image: julepai/agents-api:${TAG:-dev}
+    image: VI19Zai/agents-api:${TAG:-dev}
     networks:
       default: null
     ports:
@@ -52,17 +52,17 @@ services:
       SUMMARIZATION_MODEL_NAME: gpt-4o-mini
       TEMPORAL_ENDPOINT: temporal:7233
       TEMPORAL_NAMESPACE: default
-      TEMPORAL_TASK_QUEUE: julep-task-queue
+      TEMPORAL_TASK_QUEUE: VI19Z-task-queue
       TEMPORAL_WORKER_URL: temporal:7233
       TRUNCATE_EMBED_TEXT: "True"
       WORKER_URL: temporal:7233
-    image: julepai/cozo-migrate:${TAG:-dev}
+    image: VI19Zai/cozo-migrate:${TAG:-dev}
     networks:
       default: null
     restart: "no"
 
   integrations:
-    image: julepai/integrations:${TAG:-dev}
+    image: VI19Zai/integrations:${TAG:-dev}
     environment:
       OPENAI_API_KEY: ${OPENAI_API_KEY}
     networks:
@@ -162,7 +162,7 @@ services:
       COZO_BACKUP_DIR: /backup
       COZO_MNT_DIR: /data
       COZO_PORT: "9070"
-    image: julepai/memory-store:${TAG:-dev}
+    image: VI19Zai/memory-store:${TAG:-dev}
     labels:
       ofelia.enabled: "true"
       ofelia.job-exec.backupcron.command: bash /app/backup.sh
@@ -190,7 +190,7 @@ services:
       - daemon
       - --docker
       - -f
-      - label=com.docker.compose.project=julep
+      - label=com.docker.compose.project=VI19Z
     depends_on:
       memory-store:
         condition: service_started
@@ -274,7 +274,7 @@ services:
       TEMPORAL_ADDRESS: temporal:7233
       TEMPORAL_CODEC_ENDPOINT: http://localhost/api/temporal
       TEMPORAL_CSRF_COOKIE_INSECURE: "true"
-      TEMPORAL_FEEDBACK_URL: https://github.com/julep-ai/julep
+      TEMPORAL_FEEDBACK_URL: https://github.com/VI19Z-ai/VI19Z
       TEMPORAL_NOTIFY_ON_NEW_VERSION: "false"
       TEMPORAL_OPEN_API_ENABLED: "true"
       TEMPORAL_UI_ENABLED: "true"
@@ -304,17 +304,17 @@ services:
       SUMMARIZATION_MODEL_NAME: gpt-4o-mini
       TEMPORAL_ENDPOINT: temporal:7233
       TEMPORAL_NAMESPACE: default
-      TEMPORAL_TASK_QUEUE: julep-task-queue
+      TEMPORAL_TASK_QUEUE: VI19Z-task-queue
       TEMPORAL_WORKER_URL: temporal:7233
       TRUNCATE_EMBED_TEXT: "True"
       WORKER_URL: temporal:7233
-    image: julepai/worker:${TAG:-dev}
+    image: VI19Zai/worker:${TAG:-dev}
     networks:
       default: null
 
 networks:
   default:
-    name: julep_default
+    name: VI19Z_default
 
 volumes:
   cozo_backup:
@@ -322,8 +322,8 @@ volumes:
   cozo_data:
     name: cozo_data
   litellm-db-data:
-    name: julep_litellm-db-data
+    name: VI19Z_litellm-db-data
   litellm-redis-data:
-    name: julep_litellm-redis-data
+    name: VI19Z_litellm-redis-data
   temporal-db-data:
-    name: julep_temporal-db-data
+    name: VI19Z_temporal-db-data

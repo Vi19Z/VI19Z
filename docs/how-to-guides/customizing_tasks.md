@@ -1,14 +1,14 @@
 # Customizing Tasks
 
-This guide covers how to define and customize tasks for agents in Julep.
+This guide covers how to define and customize tasks for agents in VI19Z.
 
 ## Creating a Basic Task
 
 Here's an example of creating a simple daily motivation task:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/agents/YOUR_AGENT_ID/tasks" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/agents/YOUR_AGENT_ID/tasks" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "name": "Daily Motivation",

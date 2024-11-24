@@ -2,8 +2,8 @@
 # check=error=true
 
 FROM alpine/git
-ARG PLUGIN_MODULE=github.com/julep-ai/traefik-jwt-plugin
-ARG PLUGIN_GIT_REPO=https://github.com/julep-ai/traefik-jwt-plugin.git
+ARG PLUGIN_MODULE=github.com/VI19Z-ai/traefik-jwt-plugin
+ARG PLUGIN_GIT_REPO=https://github.com/VI19Z-ai/traefik-jwt-plugin.git
 ARG PLUGIN_GIT_BRANCH=main
 RUN git clone ${PLUGIN_GIT_REPO} /plugins-local/src/${PLUGIN_MODULE} \
       --depth 1 --single-branch --branch ${PLUGIN_GIT_BRANCH}

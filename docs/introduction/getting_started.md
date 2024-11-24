@@ -1,26 +1,26 @@
-# Getting Started with Julep
+# Getting Started with VI19Z
 
-This guide will help you set up and start using the Julep API.
+This guide will help you set up and start using the VI19Z API.
 
 ## Prerequisites
 
-- A Julep API key
+- A VI19Z API key
 - Basic understanding of RESTful APIs
 - Familiarity with JSON and curl (or any HTTP client)
 
 ## Initial Setup
 
-1. Obtain your API key from the Julep dashboard.
+1. Obtain your API key from the VI19Z dashboard.
 2. Set up your environment to include the API key in all requests:
 
 ```bash
-export JULEP_API_KEY=your_api_key_here
+export VI19Z_API_KEY=your_api_key_here
 ```
 
 3. Test your setup with a simple API call:
 
 ```bash
-curl -H "Authorization: Bearer $JULEP_API_KEY" https://dev.julep.ai/api/agents
+curl -H "Authorization: Bearer $VI19Z_API_KEY" https://dev.VI19Z.ai/api/agents
 ```
 
 If successful, you should receive a list of agents (or an empty list if you haven't created any yet).

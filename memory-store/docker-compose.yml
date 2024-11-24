@@ -1,8 +1,8 @@
-name: julep-memory-store
+name: VI19Z-memory-store
 
 services:
   memory-store:
-    image: julepai/memory-store:${TAG:-dev}
+    image: VI19Zai/memory-store:${TAG:-dev}
     environment:
       - COZO_AUTH_TOKEN=${COZO_AUTH_TOKEN}
       - COZO_PORT=${COZO_PORT:-9070}

@@ -1,20 +1,20 @@
 openapi: 3.0.0
 info:
-  title: Julep API
-  termsOfService: https://julep.ai/terms
+  title: VI19Z API
+  termsOfService: https://VI19Z.ai/terms
   contact:
-    name: Julep AI
-    url: https://julep.ai
-    email: developers@julep.ai
+    name: VI19Z AI
+    url: https://VI19Z.ai
+    email: developers@VI19Z.ai
   license:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html
   summary: A backend for creating stateful AI apps
-  description: Julep is a backend for creating stateful AI apps with background tasks and long-term memory easily.
+  description: VI19Z is a backend for creating stateful AI apps with background tasks and long-term memory easily.
   version: 1.0.0
 externalDocs:
-  url: https://docs.julep.ai
-  description: Julep API documentation
+  url: https://docs.VI19Z.ai
+  description: VI19Z API documentation
 tags: []
 paths:
   /agents:
@@ -8897,8 +8897,8 @@ components:
       in: header
       name: X-Auth-Key
 servers:
-  - url: https://{serverEnv}.julep.ai/api
-    description: The julep cloud service endpoint
+  - url: https://{serverEnv}.VI19Z.ai/api
+    description: The VI19Z cloud service endpoint
     variables:
       serverEnv:
         default: api-alpha

@@ -1,12 +1,12 @@
-import { Julep } from '@julep/sdk';
+import { VI19Z } from '@VI19Z/sdk';
 import yaml from 'js-yaml';
 import readline from 'readline';
 
 // Add these type declarations at the top of the file
-declare module '@julep/sdk';
+declare module '@VI19Z/sdk';
 declare module 'js-yaml';
 
-const client = new Julep({ apiKey: 'your_julep_api_key' });
+const client = new VI19Z({ apiKey: 'your_VI19Z_api_key' });
 
 interface Agent {
   id: string;

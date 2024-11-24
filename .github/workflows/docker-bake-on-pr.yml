@@ -17,7 +17,7 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: julepai
+          username: VI19Zai
           password: "${{ secrets.DOCKER_HUB_PASSWORD }}"
 
       - name: Bake images

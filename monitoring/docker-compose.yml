@@ -1,4 +1,4 @@
-name: julep-monitoring
+name: VI19Z-monitoring
 
 services:
   prometheus:

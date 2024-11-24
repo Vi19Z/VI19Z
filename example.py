@@ -3,9 +3,9 @@
 import os
 import time
 import yaml
-from julep import Julep # or AsyncJulep
+from VI19Z import VI19Z # or AsyncVI19Z
 
-client = Julep(api_key=os.environ["JULEP_API_KEY"])
+client = VI19Z(api_key=os.environ["VI19Z_API_KEY"])
 
 ### Step 1: Create an Agent
 

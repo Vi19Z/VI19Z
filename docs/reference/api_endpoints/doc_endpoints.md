@@ -1,6 +1,6 @@
 # Doc Endpoints
 
-This document provides a reference for all Doc API endpoints in Julep.
+This document provides a reference for all Doc API endpoints in VI19Z.
 
 ## List Docs for a User
 

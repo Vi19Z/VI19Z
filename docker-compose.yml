@@ -2,7 +2,7 @@
 # TODO: Make docker compose setup production ready
 # SCRUM-30
 
-name: julep
+name: VI19Z
 
 include:
   - ./memory-store/docker-compose.yml

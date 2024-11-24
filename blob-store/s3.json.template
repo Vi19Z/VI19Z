@@ -7,7 +7,7 @@
       ]
     },
     {
-      "name": "julep",
+      "name": "VI19Z",
       "credentials": [
         {
           "accessKey": "${S3_ACCESS_KEY}",
@@ -25,9 +25,9 @@
   ],
   "accounts": [
       {
-        "id" : "julep",
-        "displayName": "Julep",
-        "emailAddress": "developers@julep.ai"
+        "id" : "VI19Z",
+        "displayName": "VI19Z",
+        "emailAddress": "developers@VI19Z.ai"
       }
   ]
 }

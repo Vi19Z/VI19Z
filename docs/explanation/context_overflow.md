@@ -1,6 +1,6 @@
-# Context Overflow Handling in Julep
+# Context Overflow Handling in VI19Z
 
-Julep provides mechanisms to handle scenarios where the context size grows beyond the `token_budget` or the model's input limit. The behavior is determined by the `context_overflow` setting:
+VI19Z provides mechanisms to handle scenarios where the context size grows beyond the `token_budget` or the model's input limit. The behavior is determined by the `context_overflow` setting:
 
 1. `null` (default): 
    - Raises an exception
@@ -17,4 +17,4 @@ Julep provides mechanisms to handle scenarios where the context size grows beyon
    - Operates on a best-effort basis
    - Requests might fail if the context wasn't compressed enough or on time
 
-By offering these options, Julep allows developers to choose the most appropriate strategy for handling context overflow in their applications, balancing between maintaining conversation history and staying within model limits.
+By offering these options, VI19Z allows developers to choose the most appropriate strategy for handling context overflow in their applications, balancing between maintaining conversation history and staying within model limits.

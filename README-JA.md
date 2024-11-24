@@ -1,28 +1,28 @@
 <sup>[English](README.md) | [中文翻译](README-CN.md) | [日本語翻訳](README-JA.md) | [French](README-FR.md)</sup>
 
 <div align="center" id="top">
- <img src="https://github.com/user-attachments/assets/10ba11e4-4ced-400e-a400-ee0f72541780" alt="julep" width="640" height="320" />
+ <img src="https://github.com/user-attachments/assets/10ba11e4-4ced-400e-a400-ee0f72541780" alt="VI19Z" width="640" height="320" />
 </div>
 
 <p align="center">
   <br />
-  <a href="https://docs.julep.ai" rel="dofollow">ドキュメントを探索 (wip)</a>
+  <a href="https://docs.VI19Z.ai" rel="dofollow">ドキュメントを探索 (wip)</a>
   ·
   <a href="https://discord.com/invite/JTSBGRZrzj" rel="dofollow">不和</a>
   ·
-  <a href="https://x.com/julep_ai" rel="dofollow">𝕏</a>
+  <a href="https://x.com/VI19Z_ai" rel="dofollow">𝕏</a>
   ·
-  <a href="https://www.linkedin.com/company/julep-ai" rel="dofollow">リンクトイン</a>
+  <a href="https://www.linkedin.com/company/VI19Z-ai" rel="dofollow">リンクトイン</a>
 </p>
 
 <p align="center">
-    <a href="https://www.npmjs.com/package/@julep/sdk"><img src="https://img.shields.io/npm/v/%40julep%2Fsdk?style=social&amp;logo=npm&amp;link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40julep%2Fsdk" alt="NPM Version"></a>
+    <a href="https://www.npmjs.com/package/@VI19Z/sdk"><img src="https://img.shields.io/npm/v/%40VI19Z%2Fsdk?style=social&amp;logo=npm&amp;link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40VI19Z%2Fsdk" alt="NPM Version"></a>
     <span>&nbsp;</span>
-    <a href="https://pypi.org/project/julep"><img src="https://img.shields.io/pypi/v/julep?style=social&amp;logo=python&amp;label=PyPI&amp;link=https%3A%2F%2Fpypi.org%2Fproject%2Fjulep" alt="PyPI - Version"></a>
+    <a href="https://pypi.org/project/VI19Z"><img src="https://img.shields.io/pypi/v/VI19Z?style=social&amp;logo=python&amp;label=PyPI&amp;link=https%3A%2F%2Fpypi.org%2Fproject%2FVI19Z" alt="PyPI - Version"></a>
     <span>&nbsp;</span>
-    <a href="https://hub.docker.com/u/julepai"><img src="https://img.shields.io/docker/v/julepai/agents-api?sort=semver&amp;style=social&amp;logo=docker&amp;link=https%3A%2F%2Fhub.docker.com%2Fu%2Fjulepai" alt="Docker Image Version"></a>
+    <a href="https://hub.docker.com/u/VI19Zai"><img src="https://img.shields.io/docker/v/VI19Zai/agents-api?sort=semver&amp;style=social&amp;logo=docker&amp;link=https%3A%2F%2Fhub.docker.com%2Fu%2FVI19Zai" alt="Docker Image Version"></a>
     <span>&nbsp;</span>
-    <a href="https://choosealicense.com/licenses/apache/"><img src="https://img.shields.io/github/license/julep-ai/julep" alt="GitHub License"></a>
+    <a href="https://choosealicense.com/licenses/apache/"><img src="https://img.shields.io/github/license/VI19Z-ai/VI19Z" alt="GitHub License"></a>
 </p>
 
 ---
@@ -30,17 +30,17 @@
 > [!注意]
 > 👨‍💻 devfest.ai イベントに参加しませんか? [Discord](https://discord.com/invite/JTSBGRZrzj) に参加して、以下の詳細を確認してください。
 >
-> API キーを [こちら](https://dashboard-dev.julep.ai) から取得します。
+> API キーを [こちら](https://dashboard-dev.VI19Z.ai) から取得します。
 
 <details>
 <summary><b>🌟 貢献者とDevFest.AI参加者</b>（クリックして拡大）</summary>
 
 ## 🌟 貢献者を募集します!
 
-Julep プロジェクトに新しい貢献者を迎えられることを嬉しく思います。プロジェクトを始めるのに役立つ「最初の良い問題」をいくつか作成しました。貢献する方法は次のとおりです。
+VI19Z プロジェクトに新しい貢献者を迎えられることを嬉しく思います。プロジェクトを始めるのに役立つ「最初の良い問題」をいくつか作成しました。貢献する方法は次のとおりです。
 
-1. 貢献方法に関するガイドラインについては、[CONTRIBUTING.md](https://github.com/julep-ai/julep/blob/dev/CONTRIBUTING.md) ファイルをご覧ください。
-2. [good first issues](https://github.com/julep-ai/julep/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) を参照して、興味のあるタスクを見つけます。
+1. 貢献方法に関するガイドラインについては、[CONTRIBUTING.md](https://github.com/VI19Z-ai/VI19Z/blob/dev/CONTRIBUTING.md) ファイルをご覧ください。
+2. [good first issues](https://github.com/VI19Z-ai/VI19Z/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) を参照して、興味のあるタスクを見つけます。
 3. ご質問やご不明な点がございましたら、[Discord](https://discord.com/invite/JTSBGRZrzj) チャンネルまでお気軽にお問い合わせください。
 
 あなたの貢献は、大小を問わず私たちにとって貴重です。一緒に素晴らしいものを作りましょう！🚀
@@ -49,14 +49,14 @@ Julep プロジェクトに新しい貢献者を迎えられることを嬉し�
 
 嬉しいニュースです！2024 年 10 月を通して DevFest.AI に参加します！🗓️
 
-- このイベント中に Julep に貢献すると、素晴らしい Julep のグッズや景品を獲得するチャンスが得られます! 🎁
+- このイベント中に VI19Z に貢献すると、素晴らしい VI19Z のグッズや景品を獲得するチャンスが得られます! 🎁
 - 世界中の開発者とともに AI リポジトリに貢献し、素晴らしいイベントに参加しましょう。
 - この素晴らしい取り組みを企画してくださった DevFest.AI に心から感謝します。
 
 > [!ヒント]
-> 楽しみに参加する準備はできましたか? **[参加することをツイート](https://twitter.com/intent/tweet?text=Pumped%20to%20be%20participating%20in%20%40devfestai%20with%20%40julep_ai%20building%20%23ai%20%23agents%20%23workflows%20Let's%20gooo!%20https%3A%2F%2Fgit.new%2Fjulep)**して、コーディングを始めましょう! 🖥️
+> 楽しみに参加する準備はできましたか? **[参加することをツイート](https://twitter.com/intent/tweet?text=Pumped%20to%20be%20participating%20in%20%40devfestai%20with%20%40VI19Z_ai%20building%20%23ai%20%23agents%20%23workflows%20Let's%20gooo!%20https%3A%2F%2Fgit.new%2FVI19Z)**して、コーディングを始めましょう! 🖥️
 
-![Julep DevFest.AI](https://media.giphy.com/media/YjyUeyotft6epaMHtU/giphy.gif)
+![VI19Z DevFest.AI](https://media.giphy.com/media/YjyUeyotft6epaMHtU/giphy.gif)
 
 </details>
 
@@ -91,7 +91,7 @@ Julep プロジェクトに新しい貢献者を迎えられることを嬉し�
 - [SDKリファレンス](#sdk-reference)
 - [APIリファレンス](#api-reference)
 - [ローカルクイックスタート](#local-quickstart)
-- [Julep と LangChain などの違いは何ですか?](#whats-the-difference-between-julep-and-langchain-etc)
+- [VI19Z と LangChain などの違いは何ですか?](#whats-the-difference-between-VI19Z-and-langchain-etc)
 - [さまざまなユースケース](#different-use-cases)
 - [異なるフォームファクター](#different-form-factor)
 - [要約](#in-summary)
@@ -100,11 +100,11 @@ Julep プロジェクトに新しい貢献者を迎えられることを嬉し�
 
 ＃＃ 導入
 
-Julep は、過去のやり取りを記憶し、複雑なタスクを実行できる AI エージェントを作成するためのプラットフォームです。長期記憶を提供し、複数ステップのプロセスを管理します。
+VI19Z は、過去のやり取りを記憶し、複雑なタスクを実行できる AI エージェントを作成するためのプラットフォームです。長期記憶を提供し、複数ステップのプロセスを管理します。
 
-Julep を使用すると、意思決定、ループ、並列処理、多数の外部ツールや API との統合を組み込んだ複数ステップのタスクを作成できます。
+VI19Z を使用すると、意思決定、ループ、並列処理、多数の外部ツールや API との統合を組み込んだ複数ステップのタスクを作成できます。
 
-多くの AI アプリケーションは、最小限の分岐によるプロンプトと API 呼び出しの単純な線形チェーンに制限されていますが、Julep は次のようなより複雑なシナリオを処理できるように構築されています。
+多くの AI アプリケーションは、最小限の分岐によるプロンプトと API 呼び出しの単純な線形チェーンに制限されていますが、VI19Z は次のようなより複雑なシナリオを処理できるように構築されています。
 
 - 複数のステップがある、
 - モデルの出力に基づいて意思決定を行う
@@ -113,7 +113,7 @@ Julep を使用すると、意思決定、ループ、並列処理、多数の�
 - 長時間走る。
 
 > [!ヒント]
-> 単純な質問に答えるだけでなく、複雑なタスクを処理し、過去のやり取りを記憶し、場合によっては他のツールや API も使用できる AI エージェントを構築したいとします。そこで Julep の出番です。詳細については、[タスクの理解](#understanding-tasks) をお読みください。
+> 単純な質問に答えるだけでなく、複雑なタスクを処理し、過去のやり取りを記憶し、場合によっては他のツールや API も使用できる AI エージェントを構築したいとします。そこで VI19Z の出番です。詳細については、[タスクの理解](#understanding-tasks) をお読みください。
 
 ## 主な特徴
 
@@ -122,13 +122,13 @@ Julep を使用すると、意思決定、ループ、並列処理、多数の�
 3. 🔄 **複数ステップのタスク**: ループと意思決定を含む複雑な複数ステップのプロセスを構築します。
 4. ⏳ **タスク管理**: 無期限に実行される可能性のある長時間実行タスクを処理します。
 5. 🛠️ **組み込みツール**: タスクで組み込みツールと外部 API を使用します。
-6. 🔧 **自己修復**: Julep は失敗したステップを自動的に再試行し、メッセージを再送信し、一般的にタスクがスムーズに実行されるようにします。
-7. 📚 **RAG**: Julep のドキュメント ストアを使用して、独自のデータを取得して使用するためのシステムを構築します。
+6. 🔧 **自己修復**: VI19Z は失敗したステップを自動的に再試行し、メッセージを再送信し、一般的にタスクがスムーズに実行されるようにします。
+7. 📚 **RAG**: VI19Z のドキュメント ストアを使用して、独自のデータを取得して使用するためのシステムを構築します。
 
 ![機能](https://github.com/user-attachments/assets/4355cbae-fcbd-4510-ac0d-f8f77b73af70)
 
 > [!ヒント]
-> Julep は、単純なプロンプト応答モデルを超えた AI ユースケースを必要とするアプリケーションに最適です。
+> VI19Z は、単純なプロンプト応答モデルを超えた AI ユースケースを必要とするアプリケーションに最適です。
 
 ## 簡単な例
 
@@ -141,7 +141,7 @@ Julep を使用すると、意思決定、ループ、並列処理、多数の�
 5. **要約を Discord に送信**します。
 
 > [!注意]
-> Julepでは、これは単一のタスクになります<b>80行のコード</b>そして走る<b>完全に管理された</b>すべて自動的に行われます。すべての手順は Julep の独自のサーバー上で実行されるため、何もする必要はありません。
+> VI19Zでは、これは単一のタスクになります<b>80行のコード</b>そして走る<b>完全に管理された</b>すべて自動的に行われます。すべての手順は VI19Z の独自のサーバー上で実行されるため、何もする必要はありません。
 
 実際の例を次に示します。
 
@@ -228,7 +228,7 @@ main:
         '''
 ```
 
-この例では、Julep は並列実行を自動的に管理し、失敗したステップを再試行し、API リクエストを再送信し、タスクが完了するまで確実に実行し続けます。
+この例では、VI19Z は並列実行を自動的に管理し、失敗したステップを再試行し、API リクエストを再送信し、タスクが完了するまで確実に実行し続けます。
 
 > これは 30 秒以内に実行され、次の出力を返します。
 
@@ -276,33 +276,33 @@ main:
 
 ## インストール
 
-Julep を使い始めるには、[npm](https://www.npmjs.com/package/@julep/sdk) または [pip](https://pypi.org/project/julep/) を使用してインストールします。
+VI19Z を使い始めるには、[npm](https://www.npmjs.com/package/@VI19Z/sdk) または [pip](https://pypi.org/project/VI19Z/) を使用してインストールします。
 
 **Node.js**:
 
 ```bash
-npm install @julep/sdk
+npm install @VI19Z/sdk
 
 # or
 
-bun add @julep/sdk
+bun add @VI19Z/sdk
 ```
 
 **Python**:
 
 ```bash
-pip install julep
+pip install VI19Z
 ```
 
 > [!注意]
-> API キーを [こちら](https://dashboard-dev.julep.ai) から取得します。
+> API キーを [こちら](https://dashboard-dev.VI19Z.ai) から取得します。
 >
 > ベータ版では、[Discord](https://discord.com/invite/JTSBGRZrzj) に連絡して、API キーのレート制限を解除することもできます。
 
 > [!ヒント]
-> 💻 あなたは「コードを見せてください!™」タイプの人ですか? 始めるにあたって役立つクックブックを多数作成しました。**[クックブック](https://github.com/julep-ai/julep/tree/dev/cookbooks)** をチェックして、例を参照してください。
+> 💻 あなたは「コードを見せてください!™」タイプの人ですか? 始めるにあたって役立つクックブックを多数作成しました。**[クックブック](https://github.com/VI19Z-ai/VI19Z/tree/dev/cookbooks)** をチェックして、例を参照してください。
 >
-> 💡 Julep をベースに構築できるアイデアもたくさんあります。**[アイデアのリスト](https://github.com/julep-ai/julep/tree/dev/cookbooks/IDEAS.md)** をチェックして、インスピレーションを得てください。
+> 💡 VI19Z をベースに構築できるアイデアもたくさんあります。**[アイデアのリスト](https://github.com/VI19Z-ai/VI19Z/tree/dev/cookbooks/IDEAS.md)** をチェックして、インスピレーションを得てください。
 
 ## Python クイックスタート 🐍
 
@@ -311,9 +311,9 @@ pip install julep
 
 import time
 import yaml
-from julep import Julep # or AsyncJulep
+from VI19Z import VI19Z # or AsyncVI19Z
 
-client = Julep(api_key="your_julep_api_key")
+client = VI19Z(api_key="your_VI19Z_api_key")
 
 ### Step 1: Create an Agent
 
@@ -461,14 +461,14 @@ You can find the full python example [here](example.py).
 ```ジャバスクリプト
 // ステップ 0: セットアップ
 dotenv は、次のコードで定義されます。
-Julep の SDK を実装するには、次の手順に従ってください。
+VI19Z の SDK を実装するには、次の手順に従ってください。
 yaml を require します。
 
 config() を呼び出します。
 
 constクライアント = 新しいジュレップ({
-APIキー: process.env.JULEP_API_KEY、
-環境: process.env.JULEP_ENVIRONMENT || "production",
+APIキー: process.env.VI19Z_API_KEY、
+環境: process.env.VI19Z_ENVIRONMENT || "production",
 });
 
 /* ステップ 1: エージェントを作成する */
@@ -641,11 +641,11 @@ You can find the full Node.js example [here](example.js).
 
 ## Components
 
-Julep is made up of the following components:
+VI19Z is made up of the following components:
 
-- **Julep Platform**: The Julep platform is a cloud service that runs your workflows. It includes a language for describing workflows, a server for running those workflows, and an SDK for interacting with the platform.
-- **Julep SDKs**: Julep SDKs are a set of libraries for building workflows. There are SDKs for Python and JavaScript, with more on the way.
-- **Julep API**: The Julep API is a RESTful API that you can use to interact with the Julep platform.
+- **VI19Z Platform**: The VI19Z platform is a cloud service that runs your workflows. It includes a language for describing workflows, a server for running those workflows, and an SDK for interacting with the platform.
+- **VI19Z SDKs**: VI19Z SDKs are a set of libraries for building workflows. There are SDKs for Python and JavaScript, with more on the way.
+- **VI19Z API**: The VI19Z API is a RESTful API that you can use to interact with the VI19Z platform.
 
 ### Mental Model
 
@@ -653,16 +653,16 @@ Julep is made up of the following components:
   <img src="https://github.com/user-attachments/assets/38420b5d-9342-4c8d-bae9-b47c28ae45af" height="360" />
 </div>
 
-Think of Julep as a platform that combines both client-side and server-side components to help you build advanced AI agents. Here's how to visualize it:
+Think of VI19Z as a platform that combines both client-side and server-side components to help you build advanced AI agents. Here's how to visualize it:
 
 1. **Your Application Code:**
 
-   - You can use the Julep SDK in your application to define agents, tasks, and workflows.
+   - You can use the VI19Z SDK in your application to define agents, tasks, and workflows.
    - The SDK provides functions and classes that make it easy to set up and manage these components.
 
-2. **Julep Backend Service:**
+2. **VI19Z Backend Service:**
 
-   - The SDK communicates with the Julep backend over the network.
+   - The SDK communicates with the VI19Z backend over the network.
    - The backend handles execution of tasks, maintains session state, stores documents, and orchestrates workflows.
 
 3. **Integration with Tools and APIs:**
@@ -671,7 +671,7 @@ Think of Julep as a platform that combines both client-side and server-side comp
 
 ## Concepts
 
-Julep is built on several key technical components that work together to create powerful AI workflows:
+VI19Z is built on several key technical components that work together to create powerful AI workflows:
 
 ```マーメイド
 グラフTD
@@ -710,7 +710,7 @@ classDef core fill:#f9f、stroke:#333、stroke-width:2px;
 
 ## Understanding Tasks
 
-Tasks are the core of Julep's workflow system. They allow you to define complex, multi-step AI workflows that your agents can execute. Here's a brief overview of task components:
+Tasks are the core of VI19Z's workflow system. They allow you to define complex, multi-step AI workflows that your agents can execute. Here's a brief overview of task components:
 
 - **Name, Description and Input Schema**: Each task has a unique name and description for easy identification. An input schema (optional) that is used to validate the input to the task.
 - **Main Steps**: The core of a task, defining the sequence of actions to be performed. Each step can be a prompt, tool call, evaluate, wait_for_input, log, get, set, foreach, map_reduce, if-else, switch, sleep, or return. (See [Types of Workflow Steps](#types-of-workflow-steps) for more details)
@@ -718,7 +718,7 @@ Tasks are the core of Julep's workflow system. They allow you to define complex,
 
 ### Lifecycle of a Task
 
-You create a task using the Julep SDK and specify the main steps that the agent will execute. When you execute a task, the following lifecycle happens:
+You create a task using the VI19Z SDK and specify the main steps that the agent will execute. When you execute a task, the following lifecycle happens:
 
 ```マーメイド
 シーケンス図
@@ -738,7 +738,7 @@ C->>D: 最終結果
 
 ### Types of Workflow Steps
 
-Tasks in Julep can include various types of steps, allowing you to create complex and powerful workflows. Here's an overview of the available step types:
+Tasks in VI19Z can include various types of steps, allowing you to create complex and powerful workflows. Here's an overview of the available step types:
 
 #### Common Steps
 
@@ -1091,7 +1091,7 @@ Handle errors by specifying an error message
 </tr>
 </table>
 
-Each step type serves a specific purpose in building sophisticated AI workflows. This categorization helps in understanding the various control flows and operations available in Julep tasks.
+Each step type serves a specific purpose in building sophisticated AI workflows. This categorization helps in understanding the various control flows and operations available in VI19Z tasks.
 
 <div align="center">
     <a href="#top">
@@ -1106,12 +1106,12 @@ Each step type serves a specific purpose in building sophisticated AI workflows.
 
 Agents can be given access to a number of "tools" -- any programmatic interface that a foundation model can "call" with a set of inputs to achieve a goal. For example, it might use a `web_search(query)` tool to search the Internet for some information.
 
-Unlike agent frameworks, julep is a _backend_ that manages agent execution. Clients can interact with agents using our SDKs. julep takes care of executing tasks and running integrations.
+Unlike agent frameworks, VI19Z is a _backend_ that manages agent execution. Clients can interact with agents using our SDKs. VI19Z takes care of executing tasks and running integrations.
 
-Tools in julep can be one of:
+Tools in VI19Z can be one of:
 
-1. **User-defined `functions`**: These are function signatures that you can give the model to choose from, similar to how [openai]'s function-calling works. They need to be handled by the client. The workflow will pause until the client calls the function and gives the results back to julep.
-2. **`system` tools**: Built-in tools that can be used to call the julep APIs themselves, like triggering a task execution, appending to a metadata field, etc.
+1. **User-defined `functions`**: These are function signatures that you can give the model to choose from, similar to how [openai]'s function-calling works. They need to be handled by the client. The workflow will pause until the client calls the function and gives the results back to VI19Z.
+2. **`system` tools**: Built-in tools that can be used to call the VI19Z APIs themselves, like triggering a task execution, appending to a metadata field, etc.
 3. **`integrations`**: Built-in third party tools that can be used to extend the capabilities of your agents.
 4. **`api_calls`**: Direct api calls during workflow executions as tool calls.
 
@@ -1141,13 +1141,13 @@ These are function signatures that you can give the model to choose from, simila
 内容: '"hi"' # <-- Python 式
 ```
 
-Whenever julep encounters a _user-defined function_, it pauses, giving control back to the client and waits for the client to run the function call and give the results back to julep.
+Whenever VI19Z encounters a _user-defined function_, it pauses, giving control back to the client and waits for the client to run the function call and give the results back to VI19Z.
 
-> [!TIP] > **Example cookbook**: [cookbooks/13-Error_Handling_and_Recovery.py](https://github.com/julep-ai/julep/blob/dev/cookbooks/13-Error_Handling_and_Recovery.py)
+> [!TIP] > **Example cookbook**: [cookbooks/13-Error_Handling_and_Recovery.py](https://github.com/VI19Z-ai/VI19Z/blob/dev/cookbooks/13-Error_Handling_and_Recovery.py)
 
 ### `system` tools
 
-Built-in tools that can be used to call the julep APIs themselves, like triggering a task execution, appending to a metadata field, etc.
+Built-in tools that can be used to call the VI19Z APIs themselves, like triggering a task execution, appending to a metadata field, etc.
 
 `system` tools are built into the backend. They get executed automatically when needed. They do _not_ require any action from the client-side.
 
@@ -1224,19 +1224,19 @@ Additional operations available for some resources:
 
 Note: The availability of these operations may vary depending on the specific resource and implementation details.
 
-> [!TIP] > **Example cookbook**: [cookbooks/10-Document_Management_and_Search.py](https://github.com/julep-ai/julep/blob/dev/cookbooks/10-Document_Management_and_Search.py)
+> [!TIP] > **Example cookbook**: [cookbooks/10-Document_Management_and_Search.py](https://github.com/VI19Z-ai/VI19Z/blob/dev/cookbooks/10-Document_Management_and_Search.py)
 
 ### Built-in `integrations`
 
-Julep comes with a number of built-in integrations (as described in the section below). `integration` tools are directly executed on the julep backend. Any additional parameters needed by them at runtime can be set in the agent/session/user's `metadata` fields.
+VI19Z comes with a number of built-in integrations (as described in the section below). `integration` tools are directly executed on the VI19Z backend. Any additional parameters needed by them at runtime can be set in the agent/session/user's `metadata` fields.
 
 See [Integrations](#integrations) for details on the available integrations.
 
-> [!TIP] > **Example cookbook**: [cookbooks/01-Website_Crawler_using_Spider.ipynb](https://github.com/julep-ai/julep/blob/dev/cookbooks/01-Website_Crawler_using_Spider.ipynb)
+> [!TIP] > **Example cookbook**: [cookbooks/01-Website_Crawler_using_Spider.ipynb](https://github.com/VI19Z-ai/VI19Z/blob/dev/cookbooks/01-Website_Crawler_using_Spider.ipynb)
 
 ### Direct `api_calls`
 
-julep can also directly make api calls during workflow executions as tool calls. Same as `integration`s, additional runtime parameters are loaded from `metadata` fields.
+VI19Z can also directly make api calls during workflow executions as tool calls. Same as `integration`s, additional runtime parameters are loaded from `metadata` fields.
 
 For example,
 
@@ -1267,7 +1267,7 @@ test: _.input # <-- Python式
 
 ## Integrations
 
-Julep supports various integrations that extend the capabilities of your AI agents. Here's a list of available integrations and their supported arguments:
+VI19Z supports various integrations that extend the capabilities of your AI agents. Here's a list of available integrations and their supported arguments:
 
 <table>
 
@@ -1290,7 +1290,7 @@ result: 文字列 # Brave Searchの結果
 
 <td>
 
-**Example cookbook**: [cookbooks/03-SmartResearcher_With_WebSearch.ipynb](https://github.com/julep-ai/julep/blob/dev/cookbooks/03-SmartResearcher_With_WebSearch.ipynb)
+**Example cookbook**: [cookbooks/03-SmartResearcher_With_WebSearch.ipynb](https://github.com/VI19Z-ai/VI19Z/blob/dev/cookbooks/03-SmartResearcher_With_WebSearch.ipynb)
 
 </td>
 </tr>
@@ -1339,7 +1339,7 @@ success: boolean # メールが正常に送信されたかどうか
 
 <td>
 
-**Example cookbook**: [cookbooks/00-Devfest-Email-Assistant.ipynb](https://github.com/julep-ai/julep/blob/dev/cookbooks/00-Devfest-Email-Assistant.ipynb)
+**Example cookbook**: [cookbooks/00-Devfest-Email-Assistant.ipynb](https://github.com/VI19Z-ai/VI19Z/blob/dev/cookbooks/00-Devfest-Email-Assistant.ipynb)
 
 </td>
 </tr>
@@ -1364,7 +1364,7 @@ params: dict # (オプション) Spider APIのパラメータ
 
 <td>
 
-**Example cookbook**: [cookbooks/01-Website_Crawler_using_Spider.ipynb](https://github.com/julep-ai/julep/blob/dev/cookbooks/01-Website_Crawler_using_Spider.ipynb)
+**Example cookbook**: [cookbooks/01-Website_Crawler_using_Spider.ipynb](https://github.com/VI19Z-ai/VI19Z/blob/dev/cookbooks/01-Website_Crawler_using_Spider.ipynb)
 
 </td>
 </tr>
@@ -1387,7 +1387,7 @@ location: 文字列 # 気象データを取得する場所
 
 <td>
 
-**Example cookbook**: [cookbooks/04-TripPlanner_With_Weather_And_WikiInfo.ipynb](https://github.com/julep-ai/julep/blob/dev/cookbooks/04-TripPlanner_With_Weather_And_WikiInfo.ipynb)
+**Example cookbook**: [cookbooks/04-TripPlanner_With_Weather_And_WikiInfo.ipynb](https://github.com/VI19Z-ai/VI19Z/blob/dev/cookbooks/04-TripPlanner_With_Weather_And_WikiInfo.ipynb)
 
 </td>
 </tr>
@@ -1409,7 +1409,7 @@ load_max_docs: 整数 # 読み込むドキュメントの最大数 (デフォル
 
 <td>
 
-**Example cookbook**: [cookbooks/04-TripPlanner_With_Weather_And_WikiInfo.ipynb](https://github.com/julep-ai/julep/blob/dev/cookbooks/04-TripPlanner_With_Weather_And_WikiInfo.ipynb)
+**Example cookbook**: [cookbooks/04-TripPlanner_With_Weather_And_WikiInfo.ipynb](https://github.com/VI19Z-ai/VI19Z/blob/dev/cookbooks/04-TripPlanner_With_Weather_And_WikiInfo.ipynb)
 
 </td>
 </tr>
@@ -1428,7 +1428,7 @@ For more details, refer to our [Integrations Documentation](#integrations).
 
 ## Other Features
 
-Julep offers a range of advanced features to enhance your AI workflows:
+VI19Z offers a range of advanced features to enhance your AI workflows:
 
 ### Adding Tools to Agents
 
@@ -1449,7 +1449,7 @@ description="Web で情報を検索します。",
 
 ### Managing Sessions and Users
 
-Julep provides robust session management for persistent interactions:
+VI19Z provides robust session management for persistent interactions:
 
 ```パイソン
 セッション = client.sessions.create(
@@ -1502,16 +1502,16 @@ metadata_filter={"category": "研究論文"}
 
 ### SDK リファレンス
 
-- **Node.js** [SDK リファレンス](https://github.com/julep-ai/node-sdk/blob/main/api.md) | [NPM パッケージ](https://www.npmjs.com/package/@julep/sdk)
-- **Python** [SDK リファレンス](https://github.com/julep-ai/python-sdk/blob/main/api.md) | [PyPI パッケージ](https://pypi.org/project/julep/)
+- **Node.js** [SDK リファレンス](https://github.com/VI19Z-ai/node-sdk/blob/main/api.md) | [NPM パッケージ](https://www.npmjs.com/package/@VI19Z/sdk)
+- **Python** [SDK リファレンス](https://github.com/VI19Z-ai/python-sdk/blob/main/api.md) | [PyPI パッケージ](https://pypi.org/project/VI19Z/)
 
 ### API リファレンス
 
 エージェント、タスク、実行の詳細については、API ドキュメントをご覧ください。
 
-- [エージェント API](https://dev.julep.ai/api/docs#tag/agents)
-- [タスク API](https://dev.julep.ai/api/docs#tag/tasks)
-- [実行API](https://dev.julep.ai/api/docs#tag/executions)
+- [エージェント API](https://dev.VI19Z.ai/api/docs#tag/agents)
+- [タスク API](https://dev.VI19Z.ai/api/docs#tag/tasks)
+- [実行API](https://dev.VI19Z.ai/api/docs#tag/executions)
 
 <div align="center">
     <a href="#top">
@@ -1530,7 +1530,7 @@ metadata_filter={"category": "研究論文"}
 
 **手順**:
 
-1. `git clone https://github.com/julep-ai/julep.git`
+1. `git clone https://github.com/VI19Z-ai/VI19Z.git`
 2. `cd ジュレップ`
 3. `docker volume create cozo_backup`
 4. docker ボリュームを作成します cozo_data
@@ -1548,30 +1548,30 @@ metadata_filter={"category": "研究論文"}
 
 ---
 
-## Julep と LangChain などの違いは何ですか?
+## VI19Z と LangChain などの違いは何ですか?
 
 ### さまざまなユースケース
 
-LangChain と Julep は、AI 開発スタック内で異なる重点を置いたツールと考えてください。
+LangChain と VI19Z は、AI 開発スタック内で異なる重点を置いたツールと考えてください。
 
 LangChain は、プロンプトのシーケンスを作成し、LLM とのやり取りを管理するのに最適です。多数の事前構築された統合を備えた大規模なエコシステムを備えているため、何かをすぐに起動して実行したい場合に便利です。LangChain は、プロンプトと API 呼び出しの線形チェーンを含む単純なユースケースに適しています。
 
-一方、Julep は、長期的なインタラクションでコンテキストを維持できる永続的な AI エージェントの構築に重点を置いています。複数ステップのタスク、条件付きロジック、エージェントのプロセス内で直接さまざまなツールや API との統合を伴う複雑なワークフローが必要な場合に効果を発揮します。永続的なセッションと複雑なワークフローを管理するために、ゼロから設計されています。
+一方、VI19Z は、長期的なインタラクションでコンテキストを維持できる永続的な AI エージェントの構築に重点を置いています。複数ステップのタスク、条件付きロジック、エージェントのプロセス内で直接さまざまなツールや API との統合を伴う複雑なワークフローが必要な場合に効果を発揮します。永続的なセッションと複雑なワークフローを管理するために、ゼロから設計されています。
 
-以下のことが必要となる複雑な AI アシスタントの構築を考えている場合には、Julep を使用してください。
+以下のことが必要となる複雑な AI アシスタントの構築を考えている場合には、VI19Z を使用してください。
 
 - 数日または数週間にわたってユーザーのインタラクションを追跡します。
 - 毎日のサマリーの送信やデータ ソースの監視などのスケジュールされたタスクを実行します。
 - 以前のやり取りや保存されたデータに基づいて決定を下します。
 - ワークフローの一部として複数の外部サービスと対話します。
 
-そして、Julep は、ゼロから構築する必要なく、これらすべてをサポートするインフラストラクチャを提供します。
+そして、VI19Z は、ゼロから構築する必要なく、これらすべてをサポートするインフラストラクチャを提供します。
 
 ### 異なるフォームファクタ
 
-Julep は、ワークフローを記述するための言語、それらのワークフローを実行するためのサーバー、およびプラットフォームと対話するための SDK を含む **プラットフォーム** です。Julep で何かを構築するには、ワークフローの説明を `YAML` で記述し、クラウドでワークフローを実行します。
+VI19Z は、ワークフローを記述するための言語、それらのワークフローを実行するためのサーバー、およびプラットフォームと対話するための SDK を含む **プラットフォーム** です。VI19Z で何かを構築するには、ワークフローの説明を `YAML` で記述し、クラウドでワークフローを実行します。
 
-Julep は、負荷の高い、複数のステップから成る、長時間実行されるワークフロー向けに構築されており、ワークフローの複雑さに制限はありません。
+VI19Z は、負荷の高い、複数のステップから成る、長時間実行されるワークフロー向けに構築されており、ワークフローの複雑さに制限はありません。
 
 LangChain は、プロンプトとツールの線形チェーンを構築するためのいくつかのツールとフレームワークを含む **ライブラリ** です。LangChain を使用して何かを構築するには、通常、使用するモデル チェーンを設定して実行する Python コードを記述します。
 
@@ -1581,7 +1581,7 @@ LangChain は、プロンプトと API 呼び出しの線形チェーンを含�
 
 ステートレスまたは短期的なコンテキストで LLM インタラクションとプロンプト シーケンスを管理する必要がある場合は、LangChain を使用します。
 
-高度なワークフロー機能、永続的なセッション、複雑なタスク オーケストレーションを備えたステートフル エージェント用の堅牢なフレームワークが必要な場合は、Julep を選択してください。
+高度なワークフロー機能、永続的なセッション、複雑なタスク オーケストレーションを備えたステートフル エージェント用の堅牢なフレームワークが必要な場合は、VI19Z を選択してください。
 
 <div align="center">
     <a href="#top">

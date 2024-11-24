@@ -1,4 +1,4 @@
-# Julep Concepts
+# VI19Z Concepts
 
 <details>
   <summary>
@@ -58,7 +58,7 @@
 
 <div>
     <a href="https://www.loom.com/share/c5cda67936254465aaff4548245b3e13">
-      <p>Building Autonomous Agents with Julep - Watch Video</p>
+      <p>Building Autonomous Agents with VI19Z - Watch Video</p>
     </a>
     <a href="https://www.loom.com/share/c5cda67936254465aaff4548245b3e13">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c5cda67936254465aaff4548245b3e13-f0d897962b67af7d-full-play.gif">
@@ -69,7 +69,7 @@
 
 ## Agent
 
-An Agent in Julep is the main orchestrator (or protagonist) of your application. These are backed by foundation models like GPT4 or Claude which use the agent's interaction history to figure out what to do/say next. Using agents in Julep, you can:
+An Agent in VI19Z is the main orchestrator (or protagonist) of your application. These are backed by foundation models like GPT4 or Claude which use the agent's interaction history to figure out what to do/say next. Using agents in VI19Z, you can:
 
 - Interact with an agent in long-lived [sessions](#session).
 - Add system, integration or user-defined [tools](#tool) that the agent can use.
@@ -88,7 +88,7 @@ At a high level, this is what defines an `Agent` (some properties omitted):
 | `instructions`     | Instructions that this agent must follow (string or string[]).  |
 | `default_settings` | Default settings for all sessions created by this agent.        |
 
-Important to keep in mind: These fields are optional except for `model`. They are available inside sessions and task prompts as `jinja` templates. `Session`s, `Task`s etc. come with minimal default templates. You can override them with your own prompt templates throughout julep!
+Important to keep in mind: These fields are optional except for `model`. They are available inside sessions and task prompts as `jinja` templates. `Session`s, `Task`s etc. come with minimal default templates. You can override them with your own prompt templates throughout VI19Z!
 
 ### Agent Endpoints
 
@@ -117,14 +117,14 @@ Here are some curl command examples for the main Agent endpoints:
 1. List Agents (paginated):
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/agents?limit=10&offset=0" \
+curl -X GET "https://dev.VI19Z.ai/api/agents?limit=10&offset=0" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 2. Create a new Agent:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/agents" \
+curl -X POST "https://dev.VI19Z.ai/api/agents" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -138,14 +138,14 @@ curl -X POST "https://dev.julep.ai/api/agents" \
 3. Get an Agent by id:
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/agents/YOUR_AGENT_ID" \
+curl -X GET "https://dev.VI19Z.ai/api/agents/YOUR_AGENT_ID" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 4. Update an existing Agent by id (PUT):
 
 ```bash
-curl -X PUT "https://dev.julep.ai/api/agents/YOUR_AGENT_ID" \
+curl -X PUT "https://dev.VI19Z.ai/api/agents/YOUR_AGENT_ID" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -159,7 +159,7 @@ curl -X PUT "https://dev.julep.ai/api/agents/YOUR_AGENT_ID" \
 5. Update an existing Agent by id (PATCH):
 
 ```bash
-curl -X PATCH "https://dev.julep.ai/api/agents/YOUR_AGENT_ID" \
+curl -X PATCH "https://dev.VI19Z.ai/api/agents/YOUR_AGENT_ID" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -170,17 +170,17 @@ curl -X PATCH "https://dev.julep.ai/api/agents/YOUR_AGENT_ID" \
 6. Delete Agent by id:
 
 ```bash
-curl -X DELETE "https://dev.julep.ai/api/agents/YOUR_AGENT_ID" \
+curl -X DELETE "https://dev.VI19Z.ai/api/agents/YOUR_AGENT_ID" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
-Remember to replace `YOUR_API_KEY` with your actual Julep API key and `YOUR_AGENT_ID` with the specific agent ID you're working with.
+Remember to replace `YOUR_API_KEY` with your actual VI19Z API key and `YOUR_AGENT_ID` with the specific agent ID you're working with.
 
 ---
 
 ## User
 
-You can associate sessions with `User`s. julep uses them to scope `memories` formed by agents. They are optional but, in addition to memories, can be useful to attach meta data that can be referenced by other sessions or task executions.
+You can associate sessions with `User`s. VI19Z uses them to scope `memories` formed by agents. They are optional but, in addition to memories, can be useful to attach meta data that can be referenced by other sessions or task executions.
 
 A `User` consists of:
 
@@ -213,14 +213,14 @@ Here are some curl command examples for the main User endpoints:
 1. List Users (paginated):
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/users?limit=10&offset=0" \
+curl -X GET "https://dev.VI19Z.ai/api/users?limit=10&offset=0" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 2. Create a new User:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/users" \
+curl -X POST "https://dev.VI19Z.ai/api/users" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -232,14 +232,14 @@ curl -X POST "https://dev.julep.ai/api/users" \
 3. Get a User by id:
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/users/YOUR_USER_ID" \
+curl -X GET "https://dev.VI19Z.ai/api/users/YOUR_USER_ID" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 4. Update an existing User by id (PUT):
 
 ```bash
-curl -X PUT "https://dev.julep.ai/api/users/YOUR_USER_ID" \
+curl -X PUT "https://dev.VI19Z.ai/api/users/YOUR_USER_ID" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -251,7 +251,7 @@ curl -X PUT "https://dev.julep.ai/api/users/YOUR_USER_ID" \
 5. Update an existing User by id (PATCH):
 
 ```bash
-curl -X PATCH "https://dev.julep.ai/api/users/YOUR_USER_ID" \
+curl -X PATCH "https://dev.VI19Z.ai/api/users/YOUR_USER_ID" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -262,17 +262,17 @@ curl -X PATCH "https://dev.julep.ai/api/users/YOUR_USER_ID" \
 6. Delete User by id:
 
 ```bash
-curl -X DELETE "https://dev.julep.ai/api/users/YOUR_USER_ID" \
+curl -X DELETE "https://dev.VI19Z.ai/api/users/YOUR_USER_ID" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
-Remember to replace `YOUR_API_KEY` with your actual Julep API key and `YOUR_USER_ID` with the specific user ID you're working with.
+Remember to replace `YOUR_API_KEY` with your actual VI19Z API key and `YOUR_USER_ID` with the specific user ID you're working with.
 
 ---
 
 ## Session
 
-`Session` is the main workhorse for julep apps:
+`Session` is the main workhorse for VI19Z apps:
 
 - You interact with agents inside sessions. You can create multiple sessions per agent.
 - Each session maintains its own context for sending to the agent's model.
@@ -310,14 +310,14 @@ Here are some curl command examples for the main Session endpoints:
 1. List Sessions (paginated):
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/sessions?limit=10&offset=0" \
+curl -X GET "https://dev.VI19Z.ai/api/sessions?limit=10&offset=0" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 2. Create a new Session:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/sessions" \
+curl -X POST "https://dev.VI19Z.ai/api/sessions" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -332,14 +332,14 @@ curl -X POST "https://dev.julep.ai/api/sessions" \
 3. Get a Session by id:
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID" \
+curl -X GET "https://dev.VI19Z.ai/api/sessions/YOUR_SESSION_ID" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 4. Update an existing Session by id:
 
 ```bash
-curl -X PUT "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID" \
+curl -X PUT "https://dev.VI19Z.ai/api/sessions/YOUR_SESSION_ID" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -352,21 +352,21 @@ curl -X PUT "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID" \
 5. Delete Session by id:
 
 ```bash
-curl -X DELETE "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID" \
+curl -X DELETE "https://dev.VI19Z.ai/api/sessions/YOUR_SESSION_ID" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 6. Get Session Messages:
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID/messages" \
+curl -X GET "https://dev.VI19Z.ai/api/sessions/YOUR_SESSION_ID/messages" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 7. Create a new Message in a Session:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID/messages" \
+curl -X POST "https://dev.VI19Z.ai/api/sessions/YOUR_SESSION_ID/messages" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -378,15 +378,15 @@ curl -X POST "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID/messages" \
 8. Get Session Tools:
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID/tools" \
+curl -X GET "https://dev.VI19Z.ai/api/sessions/YOUR_SESSION_ID/tools" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
-Remember to replace `YOUR_API_KEY`, `YOUR_AGENT_ID`, `YOUR_USER_ID`, and `YOUR_SESSION_ID` with your actual Julep API key and the specific IDs you're working with.
+Remember to replace `YOUR_API_KEY`, `YOUR_AGENT_ID`, `YOUR_USER_ID`, and `YOUR_SESSION_ID` with your actual VI19Z API key and the specific IDs you're working with.
 
 ### `metadata` precedence order
 
-In julep, the following objects can have `metadata` added to them:
+In VI19Z, the following objects can have `metadata` added to them:
 
 - `Agent`
 - `User`
@@ -492,7 +492,7 @@ A session can have more than one agents or users. The session's behavior changes
 
 ## Chat
 
-The Chat feature in Julep allows for dynamic interaction with agents through a flexible and powerful API. It supports various settings, streaming responses, and integration with tools and documents.
+The Chat feature in VI19Z allows for dynamic interaction with agents through a flexible and powerful API. It supports various settings, streaming responses, and integration with tools and documents.
 
 ### Chat Input
 
@@ -559,7 +559,7 @@ The API provides information about why the model stopped generating tokens:
 
 5. **Document References**: The API returns information about documents referenced during the interaction, useful for providing citations or sources.
 
-By leveraging these features, developers can create sophisticated, context-aware chat interactions that integrate seamlessly with other Julep components like tools, documents, and background tasks.
+By leveraging these features, developers can create sophisticated, context-aware chat interactions that integrate seamlessly with other VI19Z components like tools, documents, and background tasks.
 
 ### Chat Endpoints
 
@@ -574,7 +574,7 @@ This endpoint allows you to send messages to an agent and receive responses.
 Here's a basic curl command to interact with the chat endpoint:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/sessions/{SESSION_ID}/chat" \
+curl -X POST "https://dev.VI19Z.ai/api/sessions/{SESSION_ID}/chat" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -589,7 +589,7 @@ curl -X POST "https://dev.julep.ai/api/sessions/{SESSION_ID}/chat" \
          }'
 ```
 
-Remember to replace `{SESSION_ID}` with your actual session ID and `YOUR_API_KEY` with your Julep API key.
+Remember to replace `{SESSION_ID}` with your actual session ID and `YOUR_API_KEY` with your VI19Z API key.
 
 ---
 
@@ -597,9 +597,9 @@ Remember to replace `{SESSION_ID}` with your actual session ID and `YOUR_API_KEY
 
 Agents can be given access to a number of "tools" -- any programmatic interface that a foundation model can "call" with a set of inputs to achieve a goal. For example, it might use a `web_search(query)` tool to search the Internet for some information.
 
-Unlike agent frameworks, julep is a _backend_ that manages agent execution. Clients can interact with agents using our SDKs. julep takes care of executing tasks and running integrations.
+Unlike agent frameworks, VI19Z is a _backend_ that manages agent execution. Clients can interact with agents using our SDKs. VI19Z takes care of executing tasks and running integrations.
 
-Tools in julep can be one of:
+Tools in VI19Z can be one of:
 
 1. User-defined `function`s  
    These are function signatures that you can give the model to choose from, similar to how [openai]'s function-calling works. An example:
@@ -619,12 +619,12 @@ Tools in julep can be one of:
    ```
 
 2. `system` tools (upcoming)  
-   Built-in tools that can be used to call the julep APIs themselves, like triggering a task execution, appending to a metadata field, etc.
+   Built-in tools that can be used to call the VI19Z APIs themselves, like triggering a task execution, appending to a metadata field, etc.
 
    `system` tools are built into the backend. They get executed automatically when needed. They do _not_ require any action from the client-side.
 
 3. Built-in `integration`s (upcoming)  
-   julep backend ships with integrated third party tools from the following providers:
+   VI19Z backend ships with integrated third party tools from the following providers:
 
    - [composio](https://composio.dev) \*\*
    - [anon](https://anon.com) \*\*
@@ -632,10 +632,10 @@ Tools in julep can be one of:
 
      \*\* Since _composio_ and _anon_ are third-party providers, their tools require setting up account linking.
 
-   `integration` tools are directly executed on the julep backend. Any additional parameters needed by them at runtime can be set in the agent/session/user's `metadata` fields.
+   `integration` tools are directly executed on the VI19Z backend. Any additional parameters needed by them at runtime can be set in the agent/session/user's `metadata` fields.
 
 4. Webhooks & `api_call`s (upcoming)  
-   julep can build natural-language tools from openapi specs. Under the hood, we use [langchain's NLA toolkit](https://python.langchain.com/v0.2/docs/integrations/toolkits/openapi_nla/) for this. Same as `integration`s, additional runtime parameters are loaded from `metadata` fields.
+   VI19Z can build natural-language tools from openapi specs. Under the hood, we use [langchain's NLA toolkit](https://python.langchain.com/v0.2/docs/integrations/toolkits/openapi_nla/) for this. Same as `integration`s, additional runtime parameters are loaded from `metadata` fields.
 
 ### Tool Endpoints
 
@@ -654,14 +654,14 @@ Here are some curl command examples for the main Tool endpoints:
 1. List Tools (paginated):
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/agents/{agent_id}/tools?limit=10&offset=0" \
+curl -X GET "https://dev.VI19Z.ai/api/agents/{agent_id}/tools?limit=10&offset=0" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 2. Create a new Tool:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/agents/{agent_id}/tools" \
+curl -X POST "https://dev.VI19Z.ai/api/agents/{agent_id}/tools" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -686,7 +686,7 @@ curl -X POST "https://dev.julep.ai/api/agents/{agent_id}/tools" \
 3. Update an existing Tool (PUT):
 
 ```bash
-curl -X PUT "https://dev.julep.ai/api/agents/{agent_id}/tools/{tool_id}" \
+curl -X PUT "https://dev.VI19Z.ai/api/agents/{agent_id}/tools/{tool_id}" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -715,7 +715,7 @@ curl -X PUT "https://dev.julep.ai/api/agents/{agent_id}/tools/{tool_id}" \
 4. Update an existing Tool (PATCH):
 
 ```bash
-curl -X PATCH "https://dev.julep.ai/api/agents/{agent_id}/tools/{tool_id}" \
+curl -X PATCH "https://dev.VI19Z.ai/api/agents/{agent_id}/tools/{tool_id}" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -728,11 +728,11 @@ curl -X PATCH "https://dev.julep.ai/api/agents/{agent_id}/tools/{tool_id}" \
 5. Delete Tool:
 
 ```bash
-curl -X DELETE "https://dev.julep.ai/api/agents/{agent_id}/tools/{tool_id}" \
+curl -X DELETE "https://dev.VI19Z.ai/api/agents/{agent_id}/tools/{tool_id}" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
-Remember to replace `YOUR_API_KEY`, `{agent_id}`, and `{tool_id}` with your actual Julep API key, agent ID, and tool ID respectively.
+Remember to replace `YOUR_API_KEY`, `{agent_id}`, and `{tool_id}` with your actual VI19Z API key, agent ID, and tool ID respectively.
 
 ### Partial application of arguments to tools
 
@@ -807,7 +807,7 @@ Then, the `send_fan_mail` will be called with the value of `favorite` set to the
 - We use vector embedding models that strike a balance between accuracy and performance.
 - Any snippets retrieved during a session are returned as part of the response for attribution.
 - The embeddings are kept up to date as new models and techniques emerge.
-- For advanced use cases, it might be necessary to roll your own. The pros of using julep are speed and automatic updates.
+- For advanced use cases, it might be necessary to roll your own. The pros of using VI19Z are speed and automatic updates.
 
 You can use the `Doc`s by:
 
@@ -838,14 +838,14 @@ Here are some curl command examples for the main Doc endpoints:
 1. List Docs owned by a User (paginated):
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/users/{user_id}/docs?limit=10&offset=0" \
+curl -X GET "https://dev.VI19Z.ai/api/users/{user_id}/docs?limit=10&offset=0" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 2. Create a Doc for a User:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/users/{user_id}/docs" \
+curl -X POST "https://dev.VI19Z.ai/api/users/{user_id}/docs" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -857,14 +857,14 @@ curl -X POST "https://dev.julep.ai/api/users/{user_id}/docs" \
 3. Get Doc by id:
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/docs/{doc_id}" \
+curl -X GET "https://dev.VI19Z.ai/api/docs/{doc_id}" \
      -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 4. Search Docs owned by an Agent:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/agents/{agent_id}/search" \
+curl -X POST "https://dev.VI19Z.ai/api/agents/{agent_id}/search" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -877,7 +877,7 @@ curl -X POST "https://dev.julep.ai/api/agents/{agent_id}/search" \
 5. Embed a query for search:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/embed" \
+curl -X POST "https://dev.VI19Z.ai/api/embed" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
@@ -885,13 +885,13 @@ curl -X POST "https://dev.julep.ai/api/embed" \
          }'
 ```
 
-Remember to replace `YOUR_API_KEY` with your actual Julep API key, and `{user_id}`, `{agent_id}`, and `{doc_id}` with the specific IDs you're working with.
+Remember to replace `YOUR_API_KEY` with your actual VI19Z API key, and `{user_id}`, `{agent_id}`, and `{doc_id}` with the specific IDs you're working with.
 
 ---
 
 ## Tasks
 
-`Task`s in Julep are _Github Actions_ style workflows that define long-running, multi-step actions. You can use them to conduct complex actions by defining them step-by-step. They have access to all Julep integrations.
+`Task`s in VI19Z are _Github Actions_ style workflows that define long-running, multi-step actions. You can use them to conduct complex actions by defining them step-by-step. They have access to all VI19Z integrations.
 
 See [loom video](https://www.loom.com/embed/c5cda67936254465aaff4548245b3e13?hideEmbedTopBar=true) explaining this with an example.
 
@@ -1259,7 +1259,7 @@ error: "Failed to generate motivation: No suitable topic found"
 
 This step throws an error and terminates the workflow execution.
 
-These expanded examples provide a more comprehensive look at how each task step can be used in a Julep workflow, showcasing the flexibility and power of the task system.
+These expanded examples provide a more comprehensive look at how each task step can be used in a VI19Z workflow, showcasing the flexibility and power of the task system.
 
 ---
 
@@ -1370,7 +1370,7 @@ Transitions can be of various types, including "init", "finish", "wait", "resume
 
 ### Execution State Transitions
 
-Executions in Julep follow a specific state transition model. The transitions are governed by both the execution status and the transition type. Here's a detailed breakdown:
+Executions in VI19Z follow a specific state transition model. The transitions are governed by both the execution status and the transition type. Here's a detailed breakdown:
 
 #### Execution Status Transitions
 

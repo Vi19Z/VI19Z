@@ -1,14 +1,14 @@
 # Managing Users
 
-This guide covers how to create, update, and delete users in Julep.
+This guide covers how to create, update, and delete users in VI19Z.
 
 ## Creating a User
 
 To create a new user:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/users" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/users" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "name": "John Doe",
@@ -21,8 +21,8 @@ curl -X POST "https://dev.julep.ai/api/users" \
 To update an existing user:
 
 ```bash
-curl -X PUT "https://dev.julep.ai/api/users/YOUR_USER_ID" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X PUT "https://dev.VI19Z.ai/api/users/YOUR_USER_ID" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "name": "John Updated",
@@ -35,8 +35,8 @@ curl -X PUT "https://dev.julep.ai/api/users/YOUR_USER_ID" \
 To delete a user:
 
 ```bash
-curl -X DELETE "https://dev.julep.ai/api/users/YOUR_USER_ID" \
-     -H "Authorization: Bearer $JULEP_API_KEY"
+curl -X DELETE "https://dev.VI19Z.ai/api/users/YOUR_USER_ID" \
+     -H "Authorization: Bearer $VI19Z_API_KEY"
 ```
 
 ## Retrieving User Information
@@ -44,8 +44,8 @@ curl -X DELETE "https://dev.julep.ai/api/users/YOUR_USER_ID" \
 To get information about a specific user:
 
 ```bash
-curl -X GET "https://dev.julep.ai/api/users/YOUR_USER_ID" \
-     -H "Authorization: Bearer $JULEP_API_KEY"
+curl -X GET "https://dev.VI19Z.ai/api/users/YOUR_USER_ID" \
+     -H "Authorization: Bearer $VI19Z_API_KEY"
 ```
 
 ## Next Steps

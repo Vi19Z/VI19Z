@@ -1,6 +1,6 @@
-# Execution State Machine in Julep
+# Execution State Machine in VI19Z
 
-In Julep, an Execution represents an instance of a Task that has been started with some input. The Execution follows a specific state machine model, ensuring consistent and predictable behavior throughout its lifecycle.
+In VI19Z, an Execution represents an instance of a Task that has been started with some input. The Execution follows a specific state machine model, ensuring consistent and predictable behavior throughout its lifecycle.
 
 ## Execution States
 
@@ -70,4 +70,4 @@ stateDiagram-v2
     finish_branch --> [*]
 ```
 
-This state machine ensures that executions in Julep follow a consistent and predictable flow, allowing for complex workflows while maintaining clear status tracking. It provides a robust framework for managing long-running tasks, handling interruptions, and recovering from failures.
+This state machine ensures that executions in VI19Z follow a consistent and predictable flow, allowing for complex workflows while maintaining clear status tracking. It provides a robust framework for managing long-running tasks, handling interruptions, and recovering from failures.

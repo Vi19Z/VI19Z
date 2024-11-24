@@ -1,8 +1,8 @@
-name: julep-gateway
+name: VI19Z-gateway
 
 services:
   gateway:
-    image: julepai/gateway:${TAG:-dev}
+    image: VI19Zai/gateway:${TAG:-dev}
     environment:
       - GATEWAY_PORT=80
       - JWT_SHARED_KEY=${JWT_SHARED_KEY}
@@ -26,9 +26,9 @@ services:
 
     command:
       # - --entrypoints.web.address=:443
-      # - --entrypoints.web.http.tls.domains[0].main=dev.julep.ai
+      # - --entrypoints.web.http.tls.domains[0].main=dev.VI19Z.ai
       # - --entrypoints.web.http.tls.certResolver=letsencrypt
-      # - --certificatesresolvers.letsencrypt.acme.email=developers@julep.ai
+      # - --certificatesresolvers.letsencrypt.acme.email=developers@VI19Z.ai
       # - --certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json
       # - --certificatesresolvers.letsencrypt.acme.tlschallenge=true
 

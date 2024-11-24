@@ -1,6 +1,6 @@
-# Metadata Precedence in Julep
+# Metadata Precedence in VI19Z
 
-In Julep, several objects can have `metadata` added to them:
+In VI19Z, several objects can have `metadata` added to them:
 - Agent
 - User
 - Session

@@ -1,14 +1,14 @@
 # Using Chat Features
 
-This guide covers how to use the chat features in Julep for dynamic interactions with agents.
+This guide covers how to use the chat features in VI19Z for dynamic interactions with agents.
 
 ## Starting a Chat Session
 
 To start a new chat session:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/sessions" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/sessions" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "agent_id": "YOUR_AGENT_ID",
@@ -21,8 +21,8 @@ curl -X POST "https://dev.julep.ai/api/sessions" \
 To send a message in a chat session:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID/chat" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/sessions/YOUR_SESSION_ID/chat" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "messages": [
@@ -41,7 +41,7 @@ curl -X POST "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID/chat" \
 To stream the agent's response:
 
 ```bash
-curl -N -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -N -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "messages": [
@@ -52,7 +52,7 @@ curl -N -H "Authorization: Bearer $JULEP_API_KEY" \
            ],
            "stream": true
          }' \
-     "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID/chat"
+     "https://dev.VI19Z.ai/api/sessions/YOUR_SESSION_ID/chat"
 ```
 
 ## Using Tools in Chat
@@ -60,8 +60,8 @@ curl -N -H "Authorization: Bearer $JULEP_API_KEY" \
 To use a tool during a chat session:
 
 ```bash
-curl -X POST "https://dev.julep.ai/api/sessions/YOUR_SESSION_ID/chat" \
-     -H "Authorization: Bearer $JULEP_API_KEY" \
+curl -X POST "https://dev.VI19Z.ai/api/sessions/YOUR_SESSION_ID/chat" \
+     -H "Authorization: Bearer $VI19Z_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{
            "messages": [

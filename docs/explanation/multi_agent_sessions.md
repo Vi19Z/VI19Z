@@ -1,6 +1,6 @@
-# Multi-Agent Sessions in Julep
+# Multi-Agent Sessions in VI19Z
 
-Julep supports different types of sessions based on the number of agents and users involved. This flexibility allows for complex interactions and use cases.
+VI19Z supports different types of sessions based on the number of agents and users involved. This flexibility allows for complex interactions and use cases.
 
 ## Types of Sessions
 
@@ -41,4 +41,4 @@ This multi-agent/user capability allows for sophisticated scenarios such as:
 - Group conversations with multiple users and agents
 - Specialized agents working together on complex tasks
 
-By supporting these various configurations, Julep provides a flexible framework for building diverse and powerful AI applications.
+By supporting these various configurations, VI19Z provides a flexible framework for building diverse and powerful AI applications.

@@ -1,27 +1,27 @@
 <div align="center" id="top">
- <img src="https://github.com/user-attachments/assets/10ba11e4-4ced-400e-a400-ee0f72541780" alt="julep" width="640" height="320" />
+ <img src="https://github.com/user-attachments/assets/10ba11e4-4ced-400e-a400-ee0f72541780" alt="VI19Z" width="640" height="320" />
 </div>
 
-# Julep AI - Notebook Overview
+# VI19Z AI - Notebook Overview
 
-Welcome to the **Julep AI Notebook Collection**! This directory contains a set of Jupyter notebooks designed to showcase various AI and automation tasks using Julep's features.
+Welcome to the **VI19Z AI Notebook Collection**! This directory contains a set of Jupyter notebooks designed to showcase various AI and automation tasks using VI19Z's features.
 
-Each notebook explores a unique use case, demonstrating different aspects of Julep's capabilities. Below is a quick overview of the notebooks, their purpose, and a link to run each of them on Google Colab.
+Each notebook explores a unique use case, demonstrating different aspects of VI19Z's capabilities. Below is a quick overview of the notebooks, their purpose, and a link to run each of them on Google Colab.
 
 | **Notebook Name** | **Colab Link** | **Description** | **Implemented** |
 |------------------ |--------------- |----------------- |----------------- |
-| `00-Devfest-Email-Assistant.ipynb` | [Colab Link](https://colab.research.google.com/github/julep-ai/julep/blob/dev/cookbooks/00-Devfest-Email-Assistant.ipynb) | Email assistant for managing DevFest communications | Yes |
-| `01-website-crawler.ipynb` | [Colab Link](https://colab.research.google.com/github/julep-ai/julep/blob/dev/cookbooks/01-website-crawler.ipynb) | Implements a web crawler using a spider to extract website content | Yes |
-| `02-sarcastic-news-headline-generator.ipynb` | [Colab Link](https://colab.research.google.com/github/julep-ai/julep/blob/dev/cookbooks/02-sarcastic-news-headline-generator.ipynb) | Generates sarcastic news headlines using a Brave Search Tool | Yes |
-| `03-trip-planning-assistant.ipynb` | [Colab Link](https://colab.research.google.com/github/julep-ai/julep/blob/dev/cookbooks/03-trip-planning-assistant.ipynb) | Plans trips using weather data and location information | Yes |
-| `04-hook-generator-trending-reels.ipynb` | [Colab Link](https://colab.research.google.com/github/julep-ai/julep/blob/dev/cookbooks/04-hook-generator-trending-reels.ipynb) | Generates engaging hooks for trending social media reels | Yes |
-| `05-video-processing-with-natural-language.ipynb` | [Colab Link](https://colab.research.google.com/github/julep-ai/julep/blob/dev/cookbooks/05-video-processing-with-natural-language.ipynb) | Processes videos using natural language commands | Yes |
-| `06-browser-use.ipynb` | [Colab Link](https://colab.research.google.com/github/julep-ai/julep/blob/dev/cookbooks/`06-browser-use.ipynb) | Demonstrates browser automation capabilities | Yes |
+| `00-Devfest-Email-Assistant.ipynb` | [Colab Link](https://colab.research.google.com/github/VI19Z-ai/VI19Z/blob/dev/cookbooks/00-Devfest-Email-Assistant.ipynb) | Email assistant for managing DevFest communications | Yes |
+| `01-website-crawler.ipynb` | [Colab Link](https://colab.research.google.com/github/VI19Z-ai/VI19Z/blob/dev/cookbooks/01-website-crawler.ipynb) | Implements a web crawler using a spider to extract website content | Yes |
+| `02-sarcastic-news-headline-generator.ipynb` | [Colab Link](https://colab.research.google.com/github/VI19Z-ai/VI19Z/blob/dev/cookbooks/02-sarcastic-news-headline-generator.ipynb) | Generates sarcastic news headlines using a Brave Search Tool | Yes |
+| `03-trip-planning-assistant.ipynb` | [Colab Link](https://colab.research.google.com/github/VI19Z-ai/VI19Z/blob/dev/cookbooks/03-trip-planning-assistant.ipynb) | Plans trips using weather data and location information | Yes |
+| `04-hook-generator-trending-reels.ipynb` | [Colab Link](https://colab.research.google.com/github/VI19Z-ai/VI19Z/blob/dev/cookbooks/04-hook-generator-trending-reels.ipynb) | Generates engaging hooks for trending social media reels | Yes |
+| `05-video-processing-with-natural-language.ipynb` | [Colab Link](https://colab.research.google.com/github/VI19Z-ai/VI19Z/blob/dev/cookbooks/05-video-processing-with-natural-language.ipynb) | Processes videos using natural language commands | Yes |
+| `06-browser-use.ipynb` | [Colab Link](https://colab.research.google.com/github/VI19Z-ai/VI19Z/blob/dev/cookbooks/`06-browser-use.ipynb) | Demonstrates browser automation capabilities | Yes |
 
 
 ## Potential Cookbooks for Contributors
 
-We welcome contributions to expand our cookbook collection. Here are some ideas for new cookbooks that showcase various Julep features and use cases:
+We welcome contributions to expand our cookbook collection. Here are some ideas for new cookbooks that showcase various VI19Z features and use cases:
 
 | **Potential Cookbook Name** | **Description** | **Key Features** |
 |---------------------------- |----------------- |------------------|
@@ -90,11 +90,11 @@ We welcome contributions to expand our cookbook collection. Here are some ideas 
 | User Onboarding Workflow | Manages the user onboarding process and sets up accounts | User registration, Account setup, Welcome communications |
 | Content Curation and Distribution | Curates content based on interests and tracks engagement | Content curation, Distribution scheduling, Engagement tracking |
 
-We encourage contributors to choose from these ideas or propose their own to showcase Julep's capabilities in solving real-world problems.
+We encourage contributors to choose from these ideas or propose their own to showcase VI19Z's capabilities in solving real-world problems.
 
-## Julep Features Demonstrated
+## VI19Z Features Demonstrated
 
-These notebooks showcase various features of Julep. Here's an overview of the key features you can explore:
+These notebooks showcase various features of VI19Z. Here's an overview of the key features you can explore:
 
 1. **Agent Management**
    - Creating and updating agents
@@ -137,9 +137,9 @@ We encourage contributors to create new notebooks that demonstrate these feature
 
 For more details about the tasks or if you have any questions, please don't hesitate to contact the author:
 
-**Author:** Julep AI  
-**Contact:** [hey@julep.ai](mailto:hey@julep.ai) or <a href="https://discord.com/invite/JTSBGRZrzj" rel="dofollow">Discord</a>
+**Author:** VI19Z AI  
+**Contact:** [hey@VI19Z.ai](mailto:hey@VI19Z.ai) or <a href="https://discord.com/invite/JTSBGRZrzj" rel="dofollow">Discord</a>
 
 ---
 
-If you have feedback or would like to contribute to the notebooks, feel free to open an issue(s) in the [repository](https://github.com/julep-ai/julep).
+If you have feedback or would like to contribute to the notebooks, feel free to open an issue(s) in the [repository](https://github.com/VI19Z-ai/VI19Z).

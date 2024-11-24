@@ -1,29 +1,29 @@
 openapi: 3.0.3
 info:
-  title: Julep Agents API
-  description: Julep AI agents API allows creating agents with long-term memory easily.
+  title: VI19Z Agents API
+  description: VI19Z AI agents API allows creating agents with long-term memory easily.
   termsOfService: ''
   contact:
-    email: developers@julep.ai
-    name: Julep Developers
-    url: https://julep.ai
+    email: developers@VI19Z.ai
+    name: VI19Z Developers
+    url: https://VI19Z.ai
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
   version: 1.0.0
 externalDocs:
   description: Find out more about spec
-  url: https://docs.julep.ai
+  url: https://docs.VI19Z.ai
 servers:
-  - url: https://api-alpha.julep.ai/api
+  - url: https://api-alpha.VI19Z.ai/api
     description: ''
     variables: {}
 tags:
   - name: Default
     description: ''
     externalDocs:
-      url: https://docs.julep.ai
-      description: https://docs.julep.ai
+      url: https://docs.VI19Z.ai
+      description: https://docs.VI19Z.ai
 paths:
   /sessions:
     post:
@@ -1189,7 +1189,7 @@ components:
         model:
           type: string
           description: The model to use with this agent
-          default: julep-ai/samantha-1-turbo
+          default: VI19Z-ai/samantha-1-turbo
         metadata:
           type: object
           properties: {}
@@ -1362,7 +1362,7 @@ components:
         model:
           type: string
           description: Name of the model that the agent is supposed to use
-          default: julep-ai/samantha-1-turbo
+          default: VI19Z-ai/samantha-1-turbo
         docs:
           type: array
           items:

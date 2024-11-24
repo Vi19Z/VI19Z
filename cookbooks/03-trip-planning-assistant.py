@@ -1,6 +1,6 @@
 import uuid
 import yaml
-from julep import Client
+from VI19Z import Client
 import os
 
 openweathermap_api_key = os.getenv("OPENWEATHERMAP_API_KEY")
@@ -10,7 +10,7 @@ brave_api_key = os.getenv("BRAVE_API_KEY")
 AGENT_UUID = uuid.uuid4()
 TASK_UUID = uuid.uuid4()
 
-# Creating Julep Client with the API Key
+# Creating VI19Z Client with the API Key
 api_key = ""  # Your API key here
 client = Client(api_key=api_key, environment="dev")
 
