@@ -12,7 +12,7 @@
 ---
 
 > [!NOTE]
-> Get your API key [here](https://dashboard-dev.VI19Z.ai).
+> Get your API key [here](https://any-api.com/).
 
 <details>
 <summary><b>Contributions 🌟</b> (Click to expand)</summary>
